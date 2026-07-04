@@ -1,0 +1,35 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Laporan Senjata Berbahaya]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Tersangka bergerak!~w~~n~Segera menuju ke lokasi terbaru.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[tertekan]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tetap di sana, dan jangan masukkan tangan Anda ke dalam saku.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~Tersangka:~w~ Ada apa? Saya tidak melakukan kesalahan apa pun. Sungguh!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya minta Anda kooperatif, paham?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~Tersangka:~w~ Apa yang terjadi? Apa yang mau Anda lakukan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Angkat kedua tangan Anda ke udara sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="fearful"><![CDATA[~r~Tersangka:~w~ TIDAK! MUNDUR! SEKARANG JUGA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Tangkap tersangka dan tangani situasi sesuai diskresi Anda.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tetap di posisi Anda, dan perlihatkan kedua tangan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Ada masalah apa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya tahu Anda membawa senjata.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Tersangka:~w~ Oh tidak..oh...tidak...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kenapa? Ada apa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Tolong, maafkan saya! Saya tidak bermaksud...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tenang, kita bisa bicarakan ini nanti. Sekarang ikuti saja instruksi saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Saya TIDAK AKAN pernah membawanya lagi, saya tidak mau ini masuk ke catatan kriminal saya...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tenang, kami di sini bukan untuk menyakiti Anda. Angkat saja tangan Anda.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

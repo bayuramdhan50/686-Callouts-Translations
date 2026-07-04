@@ -1,0 +1,33 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pengawalan Berisiko Tinggi]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Seorang ~y~tahanan~w~ membutuhkan ~y~pengawalan~w~ menuju ~y~{0}~w~. Unit bantuan Anda sedang menunggu kedatangan Anda.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informasi Pengawalan:~w~~n~ Anda akan memindahkan ~y~{0}~w~ yang {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[Kantor Polisi Mission Row]]></OTHER>
+		<OTHER><![CDATA[Lapas Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[memimpin sebuah ~r~sindikat kejahatan terorganisir~w~ yang melibatkan sejumlah oknum polisi korup]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[adalah ~y~bos mafia~w~ terkenal yang sedang menunggu persidangan, berisiko tinggi diserang oleh geng saingan]]></OTHER>
+		<OTHER><![CDATA[adalah mantan polisi yang menjadi ~y~informan korup~w~, memiliki relasi luas di dunia hitam]]></OTHER>
+		<OTHER><![CDATA[adalah ~y~bandar narkoba~w~ yang terhubung dengan jaringan peredaran narkotika terbesar di wilayah ini]]></OTHER>
+		<OTHER><![CDATA[adalah seorang ~y~penjahat siber (cybercriminal)~w~, yang saat ini menjalani masa tahanan]]></OTHER>
+		<OTHER><![CDATA[mengendalikan ~y~perdagangan senjata ilegal~w~ dan baru saja ditangkap]]></OTHER>
+		<OTHER><![CDATA[adalah seorang ~y~teroris~w~. Berisiko tinggi kelompoknya mencoba membebaskannya di jalan]]></OTHER>
+		<OTHER><![CDATA[mendirikan ~y~geng jalanan yang sangat keras~w~, menghadapi ancaman balas dendam dari kelompok lawan]]></OTHER>
+		<OTHER><![CDATA[terlibat dalam ~y~jaringan penyelundupan narkoba kelas kakap~w~ yang baru saja dibongkar pihak berwajib]]></OTHER>
+		<OTHER><![CDATA[menciptakan ~y~skema pencucian uang global~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Jika sudah siap, ~y~pimpin konvoi~w~ dan ikuti ~r~rute yang telah ditentukan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Melaporkan adanya ~y~kendaraan mencurigakan~w~ yang sedang membuntuti konvoi pengawalan kita. Siaga satu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Terdapat ~r~blokade jalan~w~ di depan! Lindungi konvoi dengan cara apa pun!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sebuah ~y~kendaraan mencurigakan~w~ berada di dekat konvoi. Periksa radar Anda!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Tahanan~w~ telah ~r~tewas~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Tujuan Baru:~w~~n~ Bertahan hidup, pulihkan keamanan, dan lumpuhkan sisa musuh!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Tingkat Bahaya Pengawalan:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~RENDAH]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~SEDANG]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~TINGGI]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Pengemudi~w~ mobil tahanan telah ~r~tewas~w~! Anda harus ~y~mengemudikan kendaraan tersebut~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pengawalan ~r~gagal~w~. ~y~Tahanan~w~ telah ~r~tewas~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pengawalan ~g~berhasil~w~. ~y~Tahanan~w~ berhasil ~g~selamat sampai tujuan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Apakah ~b~konvoi pengawalan tersangkut~w~? Tekan ~y~{0}~w~ kapan saja untuk mengatur ulang posisi kendaraan.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>

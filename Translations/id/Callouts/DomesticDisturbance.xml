@@ -1,0 +1,232 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Keributan Rumah Tangga]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~keributan rumah tangga~w~ telah dilaporkan, detail tidak diketahui. Datangi lokasi kejadian dan ~y~pastikan situasinya~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Selesaikan situasi tersebut. Anda mungkin perlu ~y~mencari saksi~w~ jika ada.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hei, apa yang terjadi di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Dia tidak mau melepaskannya begitu saja! Setiap hal kecil selalu memicunya. Saya muak dan lelah dengan semua ini!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Dia tidak mau melepaskannya begitu saja! Setiap hal kecil selalu memicunya. Saya muak dan lelah dengan semua ini!]]></DIALOGUE> // ped 1
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Mari kita dengar cerita dari versinya.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Mari kita dengar cerita dari versinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Saya hanya meminta sedikit rasa hormat! Dia mengabaikan saya seolah-olah saya tidak ada di sini, dan itu membuat saya gila.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya hanya meminta sedikit rasa hormat! Dia mengabaikan saya seolah-olah saya tidak ada di sini, dan itu membuat saya gila.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Saya tidak mengabaikanmu! Saya hanya tidak berpikir bahwa segala sesuatunya adalah krisis, tetapi kamu bersikap seolah-olah memang begitu.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya tidak mengabaikanmu! Saya hanya tidak berpikir bahwa segala sesuatunya adalah krisis, tetapi kamu bersikap seolah-olah memang begitu.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sepertinya kalian tidak saling mendengarkan. Mengapa ini terus terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Dia selalu langsung mengambil kesimpulan sebelum kita bisa membicarakannya baik-baik. Saya hanya butuh sedikit ruang!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Dia selalu langsung mengambil kesimpulan sebelum kita bisa membicarakannya baik-baik. Saya hanya butuh sedikit ruang!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Saya tidak ingin bertengkar! Saya hanya ingin dia mengerti, dan dia sudah memotong bicara saya sebelum saya sempat menjelaskan.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya tidak ingin bertengkar! Saya hanya ingin dia mengerti, dan dia sudah memotong bicara saya sebelum saya sempat menjelaskan.]]></DIALOGUE> // ped 2
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, mari kita semua menenangkan diri sejenak. Yang terpenting adalah semua orang berkomunikasi dan didengarkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Pria:~w~ Saya mengerti. Hanya saja membuat frustrasi karena sering kali rasanya seperti berbicara dengan tembok.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya mengerti. Hanya saja membuat frustrasi karena sering kali rasanya seperti berbicara dengan tembok.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Pria:~w~ Saya mendengarmu, hanya saja tidak dengan cara yang tepat.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya mendengarmu, hanya saja tidak dengan cara yang tepat.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Bisakah saya mempercayai kalian untuk menyelesaikan ini secara bijak?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic" TARGET="M"><![CDATA[~y~Pria:~w~ Ya Pak Petugas, maaf... terbawa emosi sesaat.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="apologetic" TARGET="F"><![CDATA[~y~Wanita:~w~ Ya Pak Petugas, maaf... terbawa emosi sesaat.]]></DIALOGUE> // ped 2
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hei! Apa yang terjadi di sini?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA MUAK DENGANNYA, PAK PETUGAS! Dia TIDAK PERNAH berhenti mengoceh!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA MUAK DENGANNYA, PAK PETUGAS! Dia TIDAK PERNAH berhenti mengoceh!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ OH YANG BENAR SAJA! Kamulah yang mengamuk seperti anak kecil setiap kali keadaan tidak berjalan sesuai keinginanmu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ OH YANG BENAR SAJA! Kamulah yang mengamuk seperti anak kecil setiap kali keadaan tidak berjalan sesuai keinginanmu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua, tarik napas! Kita tidak akan bertengkar saat ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Dia tidak MENDENGARKAN! Dia terus saja MENEKAN dan MENEKAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Dia tidak MENDENGARKAN! Dia terus saja MENEKAN dan MENEKAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ KARENA KAMU TIDAK PERNAH MENGANGGAP SERIUS APA PUN! KAMU TERTAWA DI DEPAN MUKAKU SEOLAH-OLAH SAYA BUKAN SIAPA-SIAPA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ KARENA KAMU TIDAK PERNAH MENGANGGAP SERIUS APA PUN! KAMU TERTAWA DI DEPAN MUKAKU SEOLAH-OLAH SAYA BUKAN SIAPA-SIAPA!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ CUKUP! Mundur, SEKARANG!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Kamu ingin saya mundur?! MUNGKIN SEHARUSNYA DIA YANG DIAM!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Kamu ingin saya mundur?! MUNGKIN SEHARUSNYA DIA YANG DIAM!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ KAMU MAU BERANTEM?! KATAKAN LAGI DI DEPAN MUKAKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ KAMU MAU BERANTEM?! KATAKAN LAGI DI DEPAN MUKAKU!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Oh kamu akan mendapatkan pukulan di wajah sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Oh kamu akan mendapatkan pukulan di wajah sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="M"><![CDATA[~y~Pria:~w~ Pak Petugas, dia menyerang saya! TOLONG!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="F"><![CDATA[~y~Wanita:~w~ Pak Petugas, dia menyerang saya! TOLONG!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Kamu pikir kamu bisa melakukan apa pun semaumu? Kamu pantas mendapatkan ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Kamu pikir kamu bisa melakukan apa pun semaumu? Kamu pantas mendapatkan ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Pukulanmu payah! Biar kutunjukkan cara melayangkan pukulan yang SEBENARNYA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Pukulanmu payah! Biar kutunjukkan cara melayangkan pukulan yang SEBENARNYA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, apa yang terjadi di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Pak Petugas, SYUKURLAH Anda di sini! Dia MEMUKUL saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Pak Petugas, SYUKURLAH Anda di sini! Dia MEMUKUL saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ ITU BOHONG! Saya tidak menyentuhnya sama sekali!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ ITU BOHONG! Saya tidak menyentuhnya sama sekali!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Semuanya tarik napas. Bu, ceritakan kepada saya tepatnya apa yang terjadi.]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Semuanya tarik napas. Pak, ceritakan kepada saya tepatnya apa yang terjadi.]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Kami sedang berdebat, lalu dia HILANG KENDALI! Dia mencengkeram dan mendorong saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Kami sedang berdebat, lalu dia HILANG KENDALI! Dia mencengkeram dan mendorong saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA TIDAK MENYENTUHMU! Kamu mengarangnya karena kamu sedang marah!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA TIDAK MENYENTUHMU! Kamu mengarangnya karena kamu sedang marah!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Pak, jangan teriak-teriak. Apakah Anda melakukan kekerasan fisik padanya atau tidak?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Bu, jangan teriak-teriak. Apakah Anda melakukan kekerasan fisik padanya atau tidak?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ TIDAK! Sumpah, tidak! Dialah yang melempar sesuatu ke arah SAYA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ TIDAK! Sumpah, tidak! Dialah yang melempar sesuatu ke arah SAYA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Itu karena kamu tidak mau BERHENTI berteriak di depan wajah saya! Saya TAKUT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Itu karena kamu tidak mau BERHENTI berteriak di depan wajah saya! Saya TAKUT!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, cukup! Saya minta kalian berdua tetap di tempat kalian. Kita akan mengusut masalah ini sampai tuntas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Permisi. Kami sedang menyelidiki keributan di dekat sini. Apakah Anda melihat sesuatu yang tidak biasa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~Saksi Mata:~w~ Mengapa Anda bertanya? Apakah ini tentang pasangan di ujung jalan itu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya tidak bisa menjelaskan detailnya, saya hanya ingin tahu apakah Anda melihat sesuatu yang di luar kebiasaan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~Saksi Mata:~w~ Saya tidak ingin ikut campur. Tapi biarkan saya mengatakan ini. Sekadar saran, suaminya adalah pria yang sangat buruk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oke, apakah Anda melihat sesuatu secara khusus?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~Saksi Mata:~w~ Kabar yang beredar di jalanan adalah pernikahan mereka berantakan. Entahlah, saya tidak tahu lagi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih atas informasinya.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Permisi. Kami sedang menyelidiki keributan di dekat sini. Apakah Anda melihat sesuatu yang tidak biasa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtatious"><![CDATA[~y~Saksi Mata:~w~ Satu-satunya yang tidak biasa adalah betapa menawannya Anda, Pak Petugas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih, kurasa. Namun saya hanya tertarik pada informasi tentang keributan yang dapat membantu penyelidikan kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtatious"><![CDATA[~y~Saksi Mata:~w~ Kalau begitu saya tidak bisa membantu, tapi jangan ragu untuk menghubungi saya saat Anda sedang tidak bertugas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baguslah, terima kasih.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, apa yang terjadi di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Pak Petugas, teman sekamar saya sudah di luar kendali. Dia benar-benar mengamuk pada saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Pak Petugas, teman sekamar saya sudah di luar kendali. Dia benar-benar mengamuk pada saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Apa maksudmu?! Kamu membuang semua barang saya ke tempat sampah!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Apa maksudmu?! Kamu membuang semua barang saya ke tempat sampah!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Oke, saya ingin mendengar dari kedua belah pihak. Bu, apa yang terjadi?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Oke, saya ingin mendengar dari kedua belah pihak. Pak, apa yang terjadi?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Teman sekamar saya pada dasarnya adalah penimbun barang. Dia punya begitu banyak sampah di rumah saya! Ini benar-benar tidak adil.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Teman sekamar saya pada dasarnya adalah penimbun barang. Dia punya begitu banyak sampah di rumah saya! Ini benar-benar tidak adil.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad" TARGET="M"><![CDATA[~y~Pria:~w~ Itu barang-barang saya yang berharga! Kamu tidak bisa membuangnya begitu saja! Itu konyol!]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad" TARGET="F"><![CDATA[~y~Wanita:~w~ Itu barang-barang saya yang berharga! Kamu tidak bisa membuangnya begitu saja! Itu konyol!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Di mana barang-barang Anda sekarang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Pria:~w~ Tempat sampahnya sudah diangkut jadi semua barang saya hilang! HILANG! Saya ingin menuntut atas pencurian!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Wanita:~w~ Tempat sampahnya sudah diangkut jadi semua barang saya hilang! HILANG! Saya ingin menuntut atas pencurian!]]></DIALOGUE>
+			<DIALOGUE EMOTION="condescending" TARGET="M"><![CDATA[~y~Pria:~w~ Oh ayolah. Itu konyol, Anda tahu itu Pak Petugas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="condescending" TARGET="F"><![CDATA[~y~Wanita:~w~ Oh ayolah. Itu konyol, Anda tahu itu Pak Petugas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua harus menjaga sikap, saya akan mengusut masalah ini sampai tuntas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Saya sedang menyelidiki kejadian di properti dekat sini. Apakah Anda melihat sesuatu yang aneh belakangan ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~Saksi Mata:~w~ Tidak, Pak Petugas, tapi kedua teman sekamar itu selalu saja bersitegang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Diduga bahwa seseorang telah membuang barang milik yang lain ke tempat sampah. Apakah Anda melihat hal seperti itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Saksi Mata:~w~ Sebenarnya saya melihatnya. Salah satu dari mereka, saya lupa yang mana, sedang membawa banyak kantong penuh sampah.]]></DIALOGUE> // the gender of the suspect is unknown, for it could be the man or woman. The bystander does not remember.
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Itu sangat membantu. Apakah ini pertama kalinya Anda melihat mereka melakukan itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Saksi Mata:~w~ Membuang banyak sampah? Ya. Tapi saya pernah menegur mereka di masa lalu untuk mengecilkan suara, mereka cukup sering bertengkar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih atas bantuan Anda yang sangat berharga. Jaga diri.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Saya sedang menyelidiki kejadian di properti dekat sini. Apakah Anda melihat sesuatu yang aneh belakangan ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Saksi Mata:~w~ Maaf Pak Petugas, saya tidak melihat sesuatu yang aneh.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Diduga bahwa seseorang telah membuang barang milik yang lain ke tempat sampah. Apakah Anda melihat hal seperti itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="honest"><![CDATA[~y~Saksi Mata:~w~ Saya tidak melihat hal semacam itu. Saya baru saja kembali dari liburan di luar negeri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti. Apakah Anda tahu banyak tentang teman sekamar yang tinggal di dekat sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="unsettled"><![CDATA[~y~Saksi Mata:~w~ Tidak, sejujurnya saya sebisa mungkin menghindari mereka. Mereka sedikit aneh.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih atas informasinya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua, mundur selangkah. Apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked" TARGET="M"><![CDATA[~y~Pria:~w~ Pak Petugas, dia mengusir saya TANPA ALASAN! Saya tinggal di sini! Dia tidak berhak melakukan ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked" TARGET="F"><![CDATA[~y~Wanita:~w~ Pak Petugas, dia mengusir saya TANPA ALASAN! Saya tinggal di sini! Dia tidak berhak melakukan ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ TANPA ALASAN?! Kamu bercanda?! Saya MUAK dengan kebohonganmu, alasanmu—saya ingin kamu KELUAR!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ TANPA ALASAN?! Kamu bercanda?! Saya MUAK dengan kebohonganmu, alasanmu—saya ingin kamu KELUAR!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Mari kita tenang sejenak. Bu, apakah Anda memiliki hak hukum untuk berada di sini?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Mari kita tenang sejenak. Pak, apakah Anda memiliki hak hukum untuk berada di sini?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA BAYAR SEWA! SAYA SUDAH TINGGAL DI SINI SELAMA SETAHUN! Dia tidak bisa begitu saja mengusir saya seperti orang asing!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA BAYAR SEWA! SAYA SUDAH TINGGAL DI SINI SELAMA SETAHUN! Dia tidak bisa begitu saja mengusir saya seperti orang asing!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Saya tidak peduli! Saya ingin dia PERGI! Saya tidak tahan lagi dengan omong kosongnya walau semalam!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya tidak peduli! Saya ingin DIA PERGI! Saya tidak tahan lagi dengan omong kosongnya walau semalam!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Baiklah, berteriak-teriak tidak akan menyelesaikan ini. Pak, apakah Anda sudah melalui prosedur penggusuran yang sah?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Baiklah, berteriak-teriak tidak akan menyelesaikan ini. Bu, apakah Anda sudah melalui prosedur penggusuran yang sah?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA TIDAK HARUS MELAKUKANNYA! Dia menolak untuk pergi! Apa yang harus saya lakukan?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA TIDAK HARUS MELAKUKANNYA! Dia menolak untuk pergi! Apa yang harus saya lakukan?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ Mungkin kalau kamu berhenti memperlakukan saya seperti sampah, kita tidak akan berada di situasi ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ Mungkin kalau kamu berhenti memperlakukan saya seperti sampah, kita tidak akan berada di situasi ini!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, saya sudah mendengar kedua sisi. Begini yang akan terjadi—kita akan menangani ini dengan cara yang benar. Jadi mari kita tetap tenang dan sopan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Kami sedang menyelidiki keributan di dekat sini. Apakah Anda memiliki informasi yang bisa membantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Saksi Mata:~w~ Tidak, maaf. Itu bukan urusan saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti, terima kasih.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Kami sedang menyelidiki keributan di dekat sini. Apakah Anda memiliki informasi yang bisa membantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Saksi Mata:~w~ Mengapa, apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terjadi pertengkaran di beberapa rumah dari sini, apakah Anda tahu sesuatu tentang pasangan yang tinggal di sana?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Saksi Mata:~w~ Itu pertanyaan yang agak lancang, tidak. Saya tidak tahu apa-apa tentang itu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, terima kasih.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA SANGAT MUAK DENGAN INI! KAMU TIDAK PERNAH MENDENGARKAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA SANGAT MUAK DENGAN INI! KAMU TIDAK PERNAH MENDENGARKAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA?! KAMULAH YANG MEMULAI INI! MENYINGKIR DARI HADAPANKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA?! KAMULAH YANG MEMULAI INI! MENYINGKIR DARI HADAPANKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ ATAU APA? KAMU MAU MENDORONGKU LAGI? LAKUKANLAH! TANTANG AKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ ATAU APA? KAMU MAU MENDORONGKU LAGI? LAKUKANLAH! TANTANG AKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA SUDAH HABIS KESABARAN DENGANMU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA SUDAH HABIS KESABARAN DENGANMU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ BAIKLAH! MARI KITA SELESAIKAN INI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ BAIKLAH! MARI KITA SELESAIKAN INI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ KAMU TIDAK BERHAK MEMPERLAKUKANKU SEPERTI INI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ KAMU TIDAK BERHAK MEMPERLAKUKANKU SEPERTI INI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ MUNDUR! SAYA MUAK DENGAN SIKAP GILA DAN KELAKUANMU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ MUNDUR! SAYA MUAK DENGAN SIKAP GILA DAN KELAKUANMU!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Jaga ~g~jarak aman~w~ setidaknya ~g~15 meter~w~ saat percakapan penyanderaan berlangsung. ~y~Bersiaplah untuk segala kemungkinan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~r~terlalu dekat~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jika Anda menyandera seseorang, saya sangat menyarankan Anda untuk melepaskan mereka sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ Mundur! Sumpah akan saya tembak dia!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ Mundur! Sumpah akan saya tembak dia!]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate" TARGET="M"><![CDATA[~y~Pria:~w~ TOLONG! LEPASKAN SAJA SAYA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate" TARGET="F"><![CDATA[~y~Wanita:~w~ TOLONG! LEPASKAN SAJA SAYA!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ DIAM! INI SEMUA SALAHMU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ DIAM! INI SEMUA SALAHMU!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak ada yang bergerak. Tapi dengar—ini bukan caranya. Mari kita bicara.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Pria:~w~ Persetan! Dia memang pantas mati!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Wanita:~w~ Persetan! Dia memang pantas mati!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="terrified" TARGET="M"><![CDATA[~y~Pria:~w~ Saya sudah tidak tahan lagi Pak Petugas! Tangkap saya! Saya lebih baik tinggal di penjara!]]></DIALOGUE>
+			<DIALOGUE EMOTION="terrified" TARGET="F"><![CDATA[~y~Wanita:~w~ Saya sudah tidak tahan lagi Pak Petugas! Tangkap saya! Saya lebih baik tinggal di penjara!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared" TARGET="M"><![CDATA[~y~Pria:~w~ Baiklah, saya tidak akan membunuhnya! Tapi saya tidak mau masuk penjara!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="F"><![CDATA[~y~Wanita:~w~ Baiklah, saya tidak akan membunuhnya! Tapi saya tidak mau masuk penjara!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hei! Apa yang terjadi di sini?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ SAYA MUAK DENGANNYA, PAK PETUGAS! Dia TIDAK PERNAH berhenti mengoceh!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ SAYA MUAK DENGANNYA, PAK PETUGAS! Dia TIDAK PERNAH berhenti mengoceh!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Pria:~w~ OH YANG BENAR SAJA! Kamulah yang mengamuk seperti anak kecil setiap kali keadaan tidak berjalan sesuai keinginanmu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Wanita:~w~ OH YANG BENAR SAJA! Kamulah yang mengamuk seperti anak kecil setiap kali keadaan tidak berjalan sesuai keinginanmu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua, tarik napas! Kita tidak akan bertengkar saat ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="M"><![CDATA[~y~Pria:~w~ Oh Pak Petugas, kita akan melakukannya tepat di sini, saat ini juga.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="F"><![CDATA[~y~Wanita:~w~ Oh Pak Petugas, kita akan melakukannya tepat di sini, saat ini juga.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="M"><![CDATA[~y~Pria:~w~ Maaf Pak Petugas, tapi Anda masuk ke dalam jebakan kami. Tidak ada keributan rumah tangga. Ini adalah PENYERGAPAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="F"><![CDATA[~y~Wanita:~w~ Maaf Pak Petugas, tapi Anda masuk ke dalam jebakan kami. Tidak ada keributan rumah tangga. Ini adalah PENYERGAPAN!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

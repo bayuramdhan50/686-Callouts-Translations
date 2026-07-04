@@ -1,0 +1,171 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Penggerebekan SWAT]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Temui Tim Penggerebekan SWAT di titik pertemuan yang telah ditentukan untuk mengoordinasikan penggerebekan.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Berkendaralah bersama ~b~Tim SWAT~w~ ke lokasi tersembunyi di dekat area Penggerebekan SWAT.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Tekan~w~ ~g~{0}~w~ untuk tidak menambah petugas SWAT.~n~~o~Tahan~w~ ~g~{0}~w~ untuk 2 petugas SWAT tambahan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda tidak mendapatkan ~b~petugas SWAT tambahan~w~ untuk penggerebekan tersebut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mendapatkan ~b~2 petugas SWAT tambahan~w~ untuk penggerebekan tersebut. Mereka ada di kendaraan Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk mengubah mode ~b~Tim SWAT~w~ antara ~o~BERTEMPUR~w~, ~g~MENGIKUTI~w~ dan ~y~BERTAHAN~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode Tim SWAT:~w~ ~o~BERTEMPUR~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode Tim SWAT:~w~ ~g~MENGIKUTI~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tujuan ~g~berhasil~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tujuan ~r~gagal~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode Tim SWAT:~w~ ~y~BERTAHAN~w~ ]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME> // High-Value Arrest Target
+		<FURTHERINFORMATION><![CDATA[~y~Temukan~w~ & ~y~tangkap~w~ target bernilai tinggi.~n~Target: ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~Target bernilai tinggi~w~ telah ~g~ditangkap~w~. ~n~Bawa mereka ke ~y~penjara~w~ terdekat.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Target bernilai tinggi~w~ telah ~r~tewas~w~. ~n~Amankan lokasi kejadian dan tekan ~y~{0}~w~ untuk MENGAKHIRI panggilan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Target bernilai tinggi~w~ sudah ~g~dalam tahanan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bawa ~o~target bernilai tinggi~w~ ke ~b~ruang tahanan~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Bagus, Anda sudah sampai. Kita punya target bernilai tinggi hari ini. Tangkap mereka hidup-hidup.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Tangkap mereka?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Petugas: ~w~Ya. Kami akan membagikan lebih banyak detail di perjalanan. Dia orang yang sangat keji dan sangat berbahaya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Kita berhenti di dekat lokasi dan melanjutkan jalan kaki?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Petugas: ~w~Tepat. Tim saya yang terdiri dari empat orang ada di kendaraan saya, Anda gunakan kendaraan Anda. Tetap waspada saat kita bergerak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Siap, akan saya lakukan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Komandan SWAT: ~w~Saya memiliki empat petugas, apakah Anda ingin tambahan dua orang untuk kendaraan Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ingat, target harus tetap hidup. Orang lain tidak penting. Petugas saya akan memberikan perlindungan untuk ekstraksi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ayo bergerak! Aktifkan terus radio Anda Pak Petugas, saya akan memberikan lebih banyak detail tentang penggerebekan saat kita berkendara.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Hei! Biarkan saya memberikan beberapa detail lebih lanjut saat kita mendekati lokasi penggerebekan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Saat Anda tiba di lokasi, akan ada beberapa orang di area tersebut. Mereka pasti bersenjata, tapi bukan berarti akan langsung terjadi baku tembak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Anda akan bisa menyusup secara diam-diam atau membuat mereka menyerah, asalkan mereka tidak melihat Anda terlebih dahulu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Tujuan Anda adalah menangkap target bernilai tinggi tersebut. Kita tidak tahu yang mana orangnya - tapi Anda seharusnya bisa menyadarinya, kecuali situasi berubah menjadi baku tembak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Setelah Anda berhasil menangkap target bernilai tinggi tersebut, bawa mereka ke kantor polisi terdekat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Semoga berhasil, Pak Petugas. Kami ingin melihat Anda kembali dengan selamat.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Target telah diamankan. Tim saya akan tetap di lokasi saat Anda membawa target ke ruang tahanan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~g~Komandan SWAT: ~w~Target tewas. Anda gagal membawa target ke dalam tahanan.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Hostage
+		<FURTHERINFORMATION><![CDATA[~y~Temukan~w~ & ~g~selamatkan~w~ sandera.~n~Sandera: ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ agar ~g~sandera~w~ mengikuti Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sandera~w~ sekarang ~y~mengikuti Anda~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sandera~w~ telah ~r~tewas~w~. ~n~Amankan lokasi kejadian dan tekan ~y~{0}~w~ untuk MENGAKHIRI panggilan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sandera~w~ sekarang aman di ~b~Kantor Polisi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bawa ~g~sandera~w~ ke tempat aman di ~b~Kantor Polisi~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Bagus, Anda di sini. Terjadi situasi penyanderaan yang sedang berlangsung. Prioritas kita adalah menyelamatkan sandera hidup-hidup.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Ekstraksi mereka dengan selamat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Petugas: ~w~Tepat sekali. Para tersangka bersenjata dan tidak dapat ditebak - jangan beri mereka kesempatan untuk melukai sandera.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Kita berhenti di dekat lokasi dan melanjutkan jalan kaki?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Petugas: ~w~Benar. Kita akan memarkirkan kendaraan tidak jauh dari sana dan maju dengan hati-hati. Operasi siluman adalah kuncinya di sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Siap, akan saya lakukan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Komandan SWAT: ~w~Saya punya empat petugas, apakah Anda ingin tambahan dua orang lagi untuk kendaraan Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ingat - nyawa sandera adalah yang utama. Lumpuhkan para tersangka jika terpaksa, tapi sandera harus bisa keluar dengan selamat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ayo bergerak! Tetap waspada dan jaga jalur komunikasi tetap terbuka, saya akan memberi pengarahan lebih lanjut saat kita jalan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Hei! Biarkan saya menjelaskan situasinya saat kita mendekati lokasi penyelamatan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Saat Anda tiba, perkirakan ada banyak penjaga bersenjata di properti tersebut. Mereka akan berpatroli dan mengawasi sandera.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Anda memiliki opsi untuk menyusup secara diam-diam atau bertempur terbuka - pastikan saja mereka tidak melihat Anda terlebih dahulu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Setelah Anda berhasil menjangkau sandera, suruh mereka mengikuti Anda dan kawal mereka keluar dengan aman. Jika baku tembak terjadi, para tersangka mungkin mencoba melukai sandera.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Bawa sandera langsung ke kantor polisi terdekat setelah mereka diamankan. Itu adalah prioritas utama Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Semoga berhasil, Pak Petugas. Mari kita pastikan Anda dan sandera keluar hidup-hidup.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Kami telah mengamankan area. Bawa sandera keluar dari sini dan bawa mereka ke kantor polisi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~g~Komandan SWAT: ~w~SANDERA TEWAS! ULANGI, SANDERA TEWAS!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Intel Retreival
+		<FURTHERINFORMATION><![CDATA[~y~Temukan~w~ & ~g~retas/ambil kembali~w~ data intelijen.~n~Barang: ~o~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bawa ~o~{0}~w~ ke ~b~Kantor Polisi~w~ terdekat untuk pemulihan forensik.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda menemukan barang bukti intelijen: ~o~{0}~n~~w~Mendekatlah dan tekan ~y~{1}~w~ untuk ~g~mengambilnya~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~g~berhasil mengamankan~w~ data intelijen: ~o~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~{0}~w~ berhasil diamankan dari ~b~Penggerebekan SWAT~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Koper]]></OTHER>
+		<OTHER><![CDATA[Tumpukan Uang Tunai]]></OTHER>
+		<OTHER><![CDATA[Peti Senjata]]></OTHER>
+		<OTHER><![CDATA[Ganja]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Bagus, Anda di sini. Kita akan melakukan penggeledahan berisiko tinggi di lokasi ini. Prioritas kita adalah mengamankan barang kontrabandin dan data intelijen sensitif.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Amankan barang buktinya dulu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Petugas: ~w~Tepat. Kita mencari salah satu dari barang berikut: peti senjata, koper, tumpukan uang tunai, atau ganja. Barang-barang itu telah digunakan dalam kejahatan baru-baru ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Mengerti. Kita bergerak masuk secara diam-diam atau cepat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Petugas: ~w~Pendekatan diam-diam akan ideal. Setelah masuk di dalam, kita amankan dan sisir seluruh area.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Komandan SWAT: ~w~Saya punya empat petugas di tim saya. Apakah Anda ingin dua orang lagi ikut dengan Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ingat — data intelijen adalah target utamanya. Para tersangka bisa dikorbankan, tapi datanya tidak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Bersiaplah! Saat kita mendobrak masuk, tetap pasang mata dan amankan barang bukti secepatnya!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Baiklah, dengarkan saat kita melaju. Penggerebekan ini adalah tentang mengamankan barang bukti kritis.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Barang bukti tersebut disembunyikan di suatu tempat di dalam area target. Perkirakan ada tersangka yang menjaganya dengan ketat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ini bisa dilakukan tanpa melepaskan satu tembakan pun. Perhatikan patroli mereka, cari titik lemah, dan menyusuplah melewati jalur yang aman.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Jika Anda ketahuan, bersiaplah untuk bertempur — tapi menyusup secara diam-diam akan membuat operasi ini jauh lebih bersih.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Data intelijen ini terkait langsung dengan kasus kejahatan tingkat tinggi. Setelah Anda mengamankannya, langkah selanjutnya adalah membawanya langsung ke kantor polisi terdekat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Semoga berhasil, Pak Petugas. Bawa pulang datanya dan jaga keselamatan diri Anda.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Kita telah mengamankan data intelijen! Bawa kembali dengan aman ke Kantor Polisi terdekat untuk pemeriksaan forensik.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Gang Leadership Capture
+    <FURTHERINFORMATION><![CDATA[~y~Temukan~w~ & ~y~tangkap~w~ kedua pemimpin geng.~n~Target: ~r~{0} & {1}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~Pemimpin geng~w~ telah ~g~ditangkap~w~. ~n~Bawa mereka ke ~y~penjara~w~ terdekat.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kedua ~o~pemimpin geng~w~ telah ~r~tewas~w~. ~n~Amankan lokasi kejadian dan tekan ~y~{0}~w~ untuk MENGAKHIRI panggilan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[1 ~o~pemimpin geng~w~ ~g~dalam tahanan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[2 ~o~pemimpin geng~w~ ~g~dalam tahanan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bawa ~o~pemimpin geng~w~ ke ~b~ruang tahanan~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Dengarkan. Ini lebih besar dari biasanya. Kami telah menyadap intelijen—dua pemimpin geng saingan sedang bertemu di sini hari ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Keduanya? Kedengarannya seperti kesempatan langka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Petugas: ~w~Tepat sekali. Para tersangka adalah penjahat terkenal, memiliki riwayat kekerasan, diperkirakan bersenjata, dan dikategorikan sangat berbahaya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Rencananya adalah menangkap mereka hidup-hidup, kan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Benar. Prioritasnya adalah membawa kedua pemimpin tersebut ke dalam tahanan. Tim saya yang terdiri dari empat orang ada di kendaraan saya, Anda bergerak dengan kendaraan Anda. Tetap waspada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Komandan SWAT: ~w~Saya bisa menugaskan tambahan dua petugas jika Anda ingin mereka ikut di kendaraan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Ingat - membawa para pemimpin itu hidup-hidup adalah tujuannya. Pengawal mereka tidak penting. Kami yang akan menangani perlindungannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Baiklah, ayo jalan. Saya akan memperbarui informasi intelijen saat kita mendekati lokasi.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Kita sudah dekat, biarkan saya menjelaskan apa yang akan dihadapi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Lokasi tersebut akan dijaga oleh banyak anggota bersenjata yang mengawal para pemimpin. Baku tembak kemungkinan terjadi, tapi belum pasti.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Jika memungkinkan, gunakan taktik mengendap-endap atau intimidasi—serbuan terbuka akan dengan cepat menjadi kacau.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Kedua pemimpin harus diidentifikasi dan dilumpuhkan hidup-hidup. Mereka akan memiliki persenjataan kelas berat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Setelah diamankan, bawa para pemimpin tersebut ke kantor polisi terdekat untuk ditahan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~Komandan SWAT: ~w~Semoga berhasil di sana—kami ingin Anda dan kedua pemimpin itu kembali dalam keadaan hidup.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Komandan SWAT: ~w~Kami sedang mengamankan target. Tim saya akan menjaga perimeter sementara Anda membawa mereka ke ruang tahanan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~g~Komandan SWAT: ~w~Negatif—kita kehilangan kedua pemimpin. Kita membutuhkan mereka berdua hidup-hidup. Ini akan menjadi catatan yang sangat buruk.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~y~Tekan~w~ ~g~{0}~w~ untuk bertempur dan memulai penggerebekan sekarang.~n~~o~Tahan~w~ ~g~{0}~w~ agar tim SWAT mengikuti Anda.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Ayo tim! Mari kita bersiap di posisi!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~b~Petugas: ~w~Bu, apa yang Anda ingin kami lakukan?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~b~Petugas: ~w~Pak, apa yang Anda ingin kami lakukan?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tim, kita akan memulai penggerebekan! Tangkap para penjahat!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tim saya akan mengikuti Anda! Kami hanya akan menyerang musuh saat Anda memperintahkan kami.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Sebuah ~o~kendaraan mencurigakan~w~ telah dilaporkan di dekat lokasi. Bersiaplah untuk ~y~kemungkinan kontak~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Sebuah ~o~helikopter mencurigakan~w~ telah dilaporkan di dekat lokasi. Bersiaplah untuk ~y~kemungkinan kontak~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Anda menemukan sebuah ~r~bom.~n~~w~Mendekatlah dan tekan ~y~{0}~w~ untuk ~g~mencoba menjinakkan~w~ bom tersebut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~g~berhasil menjinakkan bom~w~. Bom sekarang ~o~tidak aktif~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~o~gagal menjinakkan~w~ bom. Bom dapat ~r~meledak kapan saja~w~. Jauhi bom tersebut!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sebuah ~r~bom~w~ baru saja ~o~meledak~w~ di lokasi ~b~Penggerebekan SWAT~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Seorang ~r~penembak jitu (sniper)~w~ telah terdeteksi di dekat lokasi!~n~Gunakan ~y~tempat berlindung~w~ untuk melindungi diri Anda.]]></NOTIFICATION>
+	</EXTRA>
+</CALLOUT>

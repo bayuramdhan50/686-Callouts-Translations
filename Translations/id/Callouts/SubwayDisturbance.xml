@@ -1,0 +1,80 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Keributan di Kereta Bawah Tanah (Subway)]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang warga meminta bantuan mengatasi dugaan ~y~keributan~w~ yang melibatkan ~y~2 orang~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Temukan pintu masuk stasiun subway~w~ dan cobalah untuk menemukan ~y~2 orang~w~ yang menyebabkan keributan tersebut.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Korban:~w~ Tolong saya Pak Polisi, saya dikejar oleh orang gila!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Perkembangan:~w~ Seorang tersangka dilaporkan telah ~y~dipukul sampai pingsan~w~ di dalam stasiun subway. Harap sangat berhati-hati.]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Ini tembakan peringatan, mundur kalian!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ ARGHHHH! RASAKAN INI!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[marah dan agresif]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kami sedang memeriksa data identitas mereka. Tunggu sebentar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hasil pemeriksaan identitas mereka masing-masing kembali ~g~bersih~w~. Tidak ada hal yang mencurigakan.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua, tenang dulu! Mari kita tarik napas dan bicarakan baik-baik.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~r~Tersangka 1:~w~ Pak Polisi! Anda tidak tahu seberapa brengseknya wanita ini!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Tersangka 1:~w~ Bu Polisi! Anda tidak tahu seberapa brengseknya pria ini!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oke... tapi mari kita berdiri dan bicara dengan tenang... bukan berteriak agresif satu sama lain.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka 2:~w~ Anda tidak tahu BETAPA MENDERITANYA hidup saya gara-gara orang yang berdiri di sini ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tolong, mari kita coba tenangkan suasana ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka 2:~w~ Baiklah, BAIKLAH! Kita tenang sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sebenarnya apa masalahnya di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka 1:~w~ Orang sialan ini masuk ke dalam hidup saya dan menghancurkannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka 2:~w~ Saya TIDAK melakukannya!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya cukup khawatir melihat perilaku agresif kalian berdua, apakah saya bisa percaya bahwa kalian berdua akan meredam emosi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka 1:~w~ Pfff. Oke, mungkin saya memang terlalu terbawa emosi tadi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka 2:~w~ Maafkan saya, saya tidak bermaksud membuat keributan gara-gara orang brengsek ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Boleh saya minta kartu identitas kalian berdua? Saya hanya ingin memeriksa datanya sebentar di sistem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua bebas untuk pergi. Terima kasih sudah mau bekerja sama pada akhirnya, dan tolong lebih berhati-hati lagi ke depannya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Tekan ~y~Y~w~ untuk membawa orang tersebut ke tempat yang tenang untuk berbicara.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Berhasil~w~. Orang tersebut sekarang mengikuti Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kembali untuk berbicara dengan ~r~tersangka~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, apakah kalian bepergian bersama?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Ya kami bersama. Ada urusan apa Anda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan mengenai potensi keributan di sini. Saya perlu memeriksa beberapa hal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Sepertinya ini sangat berlebihan, tapi terserah.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Pak, tolong ikut dengan saya. Saya perlu bicara secara pribadi dengan Anda.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Bu, tolong ikut dengan saya. Saya perlu bicara secara pribadi dengan Anda.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih. Bisa tolong beritahu saya apakah semuanya baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Pasangan saya memaksa saya untuk ikut dengan mereka! Saya tidak tahu ke mana tujuannya, tolong selamatkan saya sebelum terlambat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah ada hal lain lagi yang perlu saya ketahui?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Mereka mungkin membawa senjata tajam atau pistol, hati-hati Pak.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih sudah menunggu. Saya perlu bertanya apakah Anda membawa barang berbahaya atau terlarang bersama Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Saya tidak bawa apa-apa Pak Polisi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda yakin?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Seperti kata pepatah, kejujuran adalah kebijakan terbaik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oke. Anda sekarang ditahan, tetap letakkan tangan Anda di tempat yang bisa saya lihat.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="resignedly"><![CDATA[~y~Korban:~w~ Tugas saya selesai. Tangkap saja saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Tersangka:~w~ Anda lihat sendiri kan bagaimana dia menyerang saya Pak Polisi! Itu tadi bukan salah saya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Warga Sekitar:~w~ Pak Polisi, terima kasih sudah datang! Biarkan saya ceritakan apa yang saya tahu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Warga Sekitar:~w~ Tadi saya sedang berjalan santai, lalu 2 orang ini lewat. Mereka bertengkar hebat sekali! Kelihatan seperti salah satu dari mereka hampir meledak emosinya dan mulai menyerang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ke arah mana mereka pergi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Warga Sekitar:~w~ Saya kurang begitu yakin, tapi sepertinya mereka masuk ke dalam stasiun subway.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Itu adalah tempat yang tepat untuk mulai mencari kalau begitu. Terima kasih banyak!]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleased"><![CDATA[~y~Warga Sekitar:~w~ Sama-sama Pak Polisi!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

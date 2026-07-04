@@ -1,0 +1,74 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Penculikan Sedang Berlangsung]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seseorang diduga telah ~y~diculik di dalam sebuah taksi. ~y~Lakukan pemberhentian lalu lintas (traffic stop).~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Memeriksa basis data...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Pemeriksaan bersih. Tidak ada hal yang mencurigakan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Tersangka masuk daftar buronan. Waspada.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Setelah Anda menangani tersangka, tekan ~y~{0}~w~ untuk menolong korban.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Pengikat Kabel (Zipties) Berdarah]]></OTHER>
+		<OTHER><![CDATA[~r~Sarung Tangan Berdarah]]></OTHER>
+		<OTHER><![CDATA[~y~Lakban (Duct Tape)]]></OTHER>
+		<OTHER><![CDATA[~r~Penutup Mata (Blindfold)]]></OTHER>
+		<OTHER><![CDATA[~r~Pengikat Kabel~w~, ~r~Pisau~w~, ~o~Balaclava]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Penumpang:~w~ AHHH TOLONGGGGG!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[terprovokasi]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Dengar baik-baik. Saya perlu berbicara dengan penumpang Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Saya rasa tidak. Saya sudah keluar dari mobil saya, Anda bisa bicara dengan saya saja.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sangat penting bagi saya untuk berbicara langsung dengan mereka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Oke oke, coba katakan saja sebenarnya ada apa ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan adanya penculikan seseorang. Kami sedang melakukan pemeriksaan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Kalau begitu, Anda berhadapan dengan orang yang tepat!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Urusan kita selesai di sini!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Barang Belanjaan]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, mau ke mana tujuan Anda saat ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Cuma mengantar penumpang ini pulang ke rumahnya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu rupanya, izinkan saya berbicara sebentar dengan penumpang Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~y~Penumpang:~w~ Halo Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami baru saja menerima laporan mengenai penculikan, saya hanya ingin memastikan Anda baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~y~Penumpang:~w~ Saya sangat baik! Saya baru saja selesai berbelanja dan barang-barang saya ada di bagasi belakang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih. Saya akan lakukan beberapa pemeriksaan singkat, setelah itu saya izinkan kalian melanjutkan perjalanan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~y~Penumpang:~w~ Tentu saja, tidak terburu-buru kok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hasil pemeriksaan semuanya bersih, kalian bebas untuk pergi!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[terlihat berusaha menarik perhatian Anda]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya perlu berbicara sebentar, tolong matikan mesin kendaraannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Ada masalah apa ini?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan dugaan penculikan. Jadi saya ingin tahu ke mana tujuan Anda sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Mengantar orang ini ke tempat tujuannya. Itulah tugas seorang sopir taksi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya perlu bicara dengan penumpangnya, apakah boleh?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Terserah, tapi argo taksi terus berjalan selagi kita ngobrol ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, ke mana Anda meminta sopir ini mengantar Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Penumpang:~w~ Saya cuma menumpang perjalanan untuk pulang ke rumah.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oke, dan tidak ada hal lain yang ingin Anda sampaikan kepada saya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Penumpang:~w~ Cuma perjalanan pulang ke rumah, itu saja.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baguslah, sepertinya semuanya aman. Biarkan saya melakukan beberapa pemeriksaan, setelah itu kita lihat langkah selanjutnya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[Saya kira itu taksi biasa... tapi begitu saya masuk, saya merasa ada yang tidak beres. Kami masuk ke dalam gang, mereka menodongkan senjata ke arah saya, mengambil ponsel saya, dan menyuruh saya diam.]]></OTHER>
+	<OTHER><![CDATA[Saya sedang berjalan pulang, lalu orang bertopeng balaclava ini menyergap saya, dan saya merasakan pistol menempel di kepala saya. Mereka memaksa saya masuk ke dalam taksi.]]></OTHER>
+	<OTHER><![CDATA[Sopir taksi ini bertanya arah kepada saya, saat saya menunduk ke dalam mobil untuk bicara dengan mereka, mereka langsung menarik saya masuk. Tapi untungnya saya tidak terluka.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Penumpang:~w~ Terima kasih banyak Pak Polisi! Saya kira... saya kira nyawa saya sudah melayang tadi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sangat bersyukur kami berhasil menemukan Anda. Saya ingin segera mengantar Anda pulang dengan selamat, tapi bisa ceritakan apa yang sebenarnya terjadi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Penumpang:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti. Terima kasih sudah membagikan detail informasi ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Penumpang:~w~ Saya masih tidak percaya kejadian mengerikan ini menimpa saya...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

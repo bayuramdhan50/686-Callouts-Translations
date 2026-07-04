@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Tersangka mengenakan ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Tersangka mengenakan ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Tersangka adalah seorang ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[setelan jas~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kaos biru~w~ dan sedang berlari.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kemeja kotak-kotak biru~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[jaket kulit~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[pekerja~w~, mengenakan ~y~kaos putih~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[suspender~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kemeja biru~w~ dengan ~y~celana pendek biru~w~. Dicurigai sebagai petugas pos.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kemeja dan topi merah besar~w~ dengan ~y~celana panjang biru dongker~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blazer biru muda dan rok denim~w~ dengan ~y~baju merah di dalamnya~w~.]]></DESCRIPTION> // FEMALE ped. 
+</PEDDESCRIPTIONS>

@@ -1,0 +1,117 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pesawat Dalam Bahaya]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~o~Pesawat~w~ tersebut akan bertahan dalam ~y~pola terbang mengitari (holding pattern)~w~ selama beberapa menit sebelum ~y~mencoba mendarat~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sebuah pesawat sedang melakukan ~r~pendaratan darurat~w~ di ~y~{0}~w~. Segera menuju ke area pendaratan yang telah ditentukan dan tunggu instruksi lebih lanjut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Pesawat~w~ tersebut kini telah diizinkan untuk melakukan ~r~pendaratan darurat~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Situasi Code 4, ~g~pesawat berhasil mendarat dengan selamat~w~ di ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bicara dengan ~y~pilot~w~ dan selidiki situasi yang terjadi.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pesawat telah mendarat. ~y~Bicara dengan pilot~w~ untuk memastikan semuanya aman.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kami ~r~gagal memunculkan pesawat~w~. Silakan coba panggilan tugas ini lagi atau hubungi dukungan teknis.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kita ~y~kehilangan kontak~w~ dengan pemantauan radar ~o~pesawat~w~ tersebut. Cobalah untuk melakukan kontak ~y~visual~w~ terhadap ~o~pesawat~w~ itu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kita ~g~kembali terhubung~w~ dengan pemantauan radar ~o~pesawat~w~ tersebut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Pesawat~w~ telah ~r~jatuh~w~. Harap tunggu sementara kami mengarahkan rute GPS Anda ke lokasi kecelakaan. Setelah ditemukan, lanjutkan tugas sesuai diskresi Anda.]]></NOTIFICATION>
+		<OTHER><![CDATA[Bandara Internasional Los Santos]]></OTHER>
+		<OTHER><![CDATA[Lapangan Terbang Sandy Shores]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~pesawat~w~ sedang mengalami ~y~masalah mesin~w~. Menuju ke area pendaratan & bersiaplah menyambut pendaratan pesawat tersebut.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Pilot:~w~ Terima kasih Pak Polisi! Bagaimana pendapat Anda tentang pendaratan tadi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Lumayan bagus untuk seseorang dengan mesin pesawat yang berasap!]]></DIALOGUE>
+			<DIALOGUE EMOTION="appreciative"><![CDATA[~y~Pilot:~w~ Saya sangat menghargai kehadiran Anda di sini untuk memastikan semuanya aman. Apakah Anda membutuhkan sesuatu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Sama sekali tidak, kami hanya ingin siap siaga di sini seandainya terjadi hal yang tidak diinginkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Pilot:~w~ Saya harus menyuruh mekanik saya memeriksa mesinnya. Kalau saya berada di udara beberapa menit lagi saja, saya tidak tahu apakah saya bisa mendarat dengan selamat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda melakukan tugas yang hebat hari ini. Silakan urus pesawat Anda, tetap hati-hati.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Pilot:~w~ Terima kasih Pak Polisi. Hati-hati di jalan dan maaf atas ketidaknyamanan ini!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Seorang penumpang telah ~r~tewas~w~ di dalam ~o~pesawat~w~. Bicara dengan pilot untuk memastikan apakah terdapat keadaan yang ~y~mencurigakan~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo Kapten. Bisa jelaskan apa yang terjadi saat di udara?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Pilot:~w~ Tentu... Saya mengajak teman saya terbang & tiba-tiba dia pingsan di pertengahan penerbangan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apa maksudnya secara tepat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="stressed"><![CDATA[~y~Pilot:~w~ Saya sedang fokus mengemudikan pesawat karena lalu lintas udara sangat padat hari ini, lalu saat saya menoleh ke belakang dia sudah tidak memberikan respons. Saya pun langsung melakukan pendaratan darurat di sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah teman Anda memiliki riwayat penyakit tertentu yang pernah dia ceritakan kepada Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~Pilot:~w~ Sejujurnya, kami tidak pernah membicarakan hal itu. Saya hanya berasumsi dia cukup sehat untuk terbang...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini sekarang menjadi tempat kejadian perkara (TKP) jadi saya perlu melakukan penyelidikan. Apakah tidak masalah?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cooperative"><![CDATA[~y~Pilot:~w~ Ya tentu saja Pak Polisi, Anda mendapati kerja sama penuh dari saya.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Kain Kloroform~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Bekas-bekas Bekapan/Mencekik~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Bantal~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~o~Pesawat~w~ berisiko ~y~meledak sewaktu-waktu~w~. Bicara dengan pilot & segera lakukan evakuasi!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Pesawat~w~ telah ~r~meledak~w~. Lanjutkan tugas sesuai diskresi Anda.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Anda:~w~ Keluar dari pesawat dan ikuti saya! Cepat!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~pesawat~w~ melaporkan kondisi darurat karena mengalami ~y~masalah mesin~w~ dan harus melakukan pendaratan darurat.~n~Laporan menyebutkan bahwa ~r~landasan pacu terhalang~w~. Bersihkan landasan sebelum pesawat mendarat!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Pindahkan kendaraan yang menghalangi sebelum ~o~pesawat~w~ mencoba mendarat lalu bicara dengan pilot~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Itu tadi benar-benar kritis. Terima kasih sudah membersihkan landasan tepat waktu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama sekali tidak masalah. Kami senang bisa menyingkirkan kendaraan itu dari jalur Anda. Bagaimana kondisi pesawatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Pilot:~w~ Bisa saja lebih buruk, masalah mesinnya sangat parah. Tapi untunglah bisa mendarat dengan selamat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda sungguh luar biasa menghadapi situasi sesulit ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="modest"><![CDATA[~y~Pilot:~w~ Terima kasih, saya rasa itu bagian dari risiko pekerjaan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Pastinya. Kami senang Anda selamat. Apakah Anda membutuhkan bantuan lainnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confident"><![CDATA[~y~Pilot:~w~ Tidak, kami bisa menanganinya. Tim darat sudah dalam perjalanan ke mari.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah kalau begitu. Jika Anda butuh sesuatu, panggil saja kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Pilot:~w~ Pasti, terima kasih sekali lagi atas bantuannya, Pak Polisi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~pesawat~w~ melaporkan kondisi darurat karena menduga adanya ~y~penyusup gelap (stowaway)~w~ di dalam pesawat. Tangkap penyusup tersebut saat pesawat mendarat.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Memeriksa apakah ada ~y~tahanan yang melarikan diri~w~ dalam 24 jam terakhir. Tunggu sebentar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kami mengonfirmasi bahwa seorang ~y~{0}~w~ kabur dari penjara dalam 24 jam terakhir. Tersangka masih buron.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk menggeledah ~o~pesawat~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, ada yang bisa kami bantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Pilot:~w~ Saat terbang tadi saya mendengar suara gesekan di dalam pesawat. Serta kedengarannya seperti seekor hewan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda meninggalkan pesawat tanpa pengawasan baru-baru ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~Pilot:~w~ Ya, saya tidak punya hanggar jadi saya membiarkannya di luar selama beberapa hari.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Menurut Anda, apa kira-kira penyebab suara itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~y~Pilot:~w~ Pak Polisi, saya curiga ada penyusup gelap di dalam. Saya tidak berani memeriksa sendiri, jadi kalau Anda bisa menggeledah pesawat saya, saya sangat menghargainya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Biar saya periksa sesuatu dulu dengan Dispatch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya akan menggeledah pesawat Anda sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~b~Anda:~w~ Jangan bergerak! Sedang apa Anda di dalam sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Penyusup:~w~ Oh, eh... Saya cuma mau pergi ke suatu tempat. Dengar, Anda salah tangkap orang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Simpan saja alasanmu, kamu tidak selicik yang kamu kira. Kami tahu siapa kamu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="persistent"><![CDATA[~r~Penyusup:~w~ Sumpah Pak Polisi, saya tidak berniat jahat. Saya cuma butuh jalan keluar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jalan keluar? Kamu justru menemukan jalan untuk kembali. Berkeliaran dengan surat penangkapan di kepalamu adalah jalan kembali ke dalam sel penjara.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~Penyusup:~w~ Tolonglah, mengertilah. Masalah ini sangat rumit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Rumit bukan berarti boleh melanggar hukum. Kamu ikut dengan saya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~pesawat~w~ melaporkan kondisi darurat akibat ~y~jendela pecah~w~ yang terjadi saat penerbangan. Menuju ke area pendaratan dan bersiaplah menyambut pendaratan pesawat.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Pak Polisi, terima kasih sudah hadir di sini. Itu tadi pendaratan yang sangat mendebarkan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama sekali tidak masalah, Kapten. Kami menerima laporan soal jendela pesawat Anda. Apakah Anda baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shaken"><![CDATA[~y~Pilot:~w~ Ya, cuma sedikit syok. Belum pernah saya mengalami jendela pecah berkeping-keping saat terbang seperti tadi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda menanganinya dengan sangat baik. Bagaimana caranya Anda bisa tetap tenang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Berkat pelatihan bertahun-tahun, saya rasa. Kuncinya adalah tetap fokus dan membawa kita turun dengan selamat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda benar-benar melakukan tugas yang hebat. Kami sudah menyiagakan layanan darurat untuk jaga-jaga. Untunglah kita tidak membutuhkannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Saya juga bersyukur. Terima kasih atas bantuannya, saya sangat menghargainya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan saja, Kapten. Untuk itulah kami ada di sini. Hati-hati, beri tahu kami jika Anda membutuhkan hal lain.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~o~pesawat~w~ melakukan pendaratan darurat akibat ~y~kondisi cuaca buruk~w~. Menuju ke area pendaratan dan bersiaplah menyambut pendaratan pesawat.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Huh, pendaratan yang sangat menegangkan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda baik-baik saja Kapten? Badai itu datang tiba-tiba tanpa diprediksi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Ya. Radar cuaca tidak bisa menggambarkan seberapa parah turbulensi di atas sana tadi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda melakukan tugas yang luar biasa dengan membawa pesawat turun dengan selamat. Kami sangat mengkhawatirkan Anda tadi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Terima kasih Pak Polisi. Saya menghargai kehadiran Anda di sini untuk memastikan semuanya berjalan lancar. Tadi itu benar-benar situasi kritis.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Syukurlah Anda selamat. Beri tahu saya jika Anda membutuhkan bantuan untuk hal lainnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pilot:~w~ Terima kasih sekali lagi. Saya akan berbicara dengan pihak menara pengawas (ATC) setelah kami siap bergerak. Semoga cuacanya segera membaik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Semoga saja. Hati-hati Kapten dan sekali lagi, kerja yang bagus.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>

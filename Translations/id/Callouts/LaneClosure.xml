@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Penutupan Jalur]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang ~y~pengemudi truk derek~w~ meminta ~o~penutupan jalur~w~ untuk menangani kendaraan mogok dengan aman.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Tutup jalur yang terdampak~w~ dan bicara dengan ~o~pengemudi truk derek~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Pertahankan penutupan jalur~w~ dan arahkan lalu lintas agar ~o~Pengemudi Truk Derek~w~ dapat memperbaiki kendaraan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kendaraan ~g~berhasil diperbaiki~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kendaraan akan ~o~diderek~w~ karena tidak dapat diperbaiki.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="pleased"><![CDATA[~y~Mekanik:~w~ Pak Polisi, perbaikannya sudah selesai. Kami akan segera melanjutkan perjalanan!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="disappointed"><![CDATA[~y~Mekanik:~w~ Maaf Pak Polisi, kami tidak bisa memperbaikinya! Saya butuh ruang yang cukup di belakang truk untuk menderek kendaraan ini.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Mekanik:~w~ Halo Pak Polisi. Saya butuh bantuan untuk menutup jalur agar saya bisa menangani kendaraan mogok ini dengan aman.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak masalah. Semoga lancar! Beri tahu saya jika Anda butuh bantuan lain.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

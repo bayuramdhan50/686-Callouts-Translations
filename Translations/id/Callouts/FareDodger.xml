@@ -1,0 +1,111 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pelanggar Tiket (Fare Dodger)]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Petugas stasiun~w~ membutuhkan bantuan Anda; mereka meminta Anda untuk menangkap seseorang yang diduga ~y~tidak membayar tiket kereta.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bicara dengan terduga ~y~pelanggar tiket.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Tiket sah~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Tiket palsu~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Stasiun terdekat memberi tahu saya bahwa mereka melompati gerbang pembatas di sana. Sangat nekat, dan itu merupakan tindak pidana.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Permisi, bisa tunggu di sana sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Cepat sedikit, saya harus mengejar kereta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sudah berbicara dengan petugas penertiban tiket, dan mereka mengatakan bahwa Anda melompati gerbang pembatas?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Pfff. Itu bukan masalah besar. Saya sedang tidak punya uang receh, tidak bisakah Anda melepaskan saya sekali ini saja?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Menggunakan kereta tanpa membayar tiket adalah sebuah pelanggaran, saya akan menuliskan surat denda untuk Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Ya sudah, cepat lakukan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini dia. Anda boleh naik kereta sekarang karena Anda harus membayar denda ini, tapi lain kali bayarlah tiket Anda seperti orang lain.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Denda ini mahal sekali, saya tidak percaya ini. Baiklah, sepertinya seharusnya saya beli tiket saja tadi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Saya memperhatikan tiket yang dibawa seseorang; bentuknya aneh, saya merasa itu mungkin tiket palsu. Sayang sekali hal seperti ini makin marak terjadi.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, bisa tolong tetap di sana sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka:~w~ Tentu Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami dipanggil oleh staf stasiun kereta, mereka heran bagaimana caranya Anda bisa melewati gerbang pemeriksaan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Lho, saya punya tiket, begitulah cara saya masuk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu ya, boleh saya lihat tiketnya sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Eh, tentu. Tapi saya tidak mengerti kenapa Anda harus memeriksanya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Di sini tertulis tiketnya sudah kedaluwarsa seminggu yang lalu, Anda tahu kenapa bisa begitu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sarcastic"><![CDATA[~r~Tersangka:~w~ Masa sih, benarkah! Saya sama sekali tidak tahu kenapa bisa begitu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jangan pura-pura bodoh dengan saya, Anda sengaja menggunakan tiket lama. Saya akan menjatuhkan denda kepada Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Jujur saja, lakukan sesuatu yang lebih berguna dalam hidup Anda sekali-kali. Sini berikan dendanya, setelah itu saya mau pergi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini dia.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Terima kasih banyak atas ini. Anda menghancurkan hari saya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Rekan saya di stasiun lain melapor lewat radio. Sepertinya orang ini tidak membawa tiket, namun sayangnya rekan saya tadi tidak sempat memantau kamera CCTV.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, bisa tolong tetap di sana sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka:~w~ Tentu Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya diminta untuk memeriksa apakah Anda membawa tiket bersama Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Saya tidak tahu, apakah saya bawa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini bukan lelucon, saya butuh jawaban yang jujur dari Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Astaga! Tangkap sana penjahat sungguhan, jangan ganggu orang yang cuma mau naik kereta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya tanya sekali lagi, apakah Anda membawa tiket?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Anda tidak punya kerjaan lain yang lebih penting ya? Biarkan saya naik ke kereta sialan itu. Keretanya juga sebentar lagi datang.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Bicara dengan terduga ~r~penjual tiket palsu.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Saya sempat melihat sekilas tiket yang digunakan seseorang, dan sepertinya mencurigakan. Saya yakin itu tiket palsu.]]></OTHER>
+		<OTHER><![CDATA[~r~Tiket-tiket palsu~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Permisi, saya perlu berbicara dengan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka:~w~ Tentu Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami dipanggil oleh staf stasiun kereta, mereka heran bagaimana caranya Anda bisa melewati gerbang pemeriksaan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Lho, saya punya tiket, begitulah cara saya masuk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu ya, boleh saya lihat tiketnya sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Tentu saja, ini dia.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini adalah tiket palsu, terlihat jelas dari tanda di bagian pinggirnya. Kenapa Anda menggunakan tiket ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Di depan pintu masuk stasiun ada orang yang menjualnya, harganya jauh lebih murah, setidaknya setengah harga dari tiket biasa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu, jadi Anda membelinya dari orang tersebut dengan harga murah itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~r~Tersangka:~w~ Iya benar. Dengar, ini kartu identitas saya. Saya bukan penjahat, saya janji.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih. Saya akan coba cari orang yang Anda sebutkan itu.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tunggu sebentar. Kita perlu bicara.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Hari baru, polisi baru yang mencampuri urusan saya. Ada apa lagi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami memiliki kecurigaan bahwa Anda telah menjual tiket-tiket palsu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya akan menahan Anda sekarang, tetap di posisi Anda.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~Tersangka:~w~ Tangan saya sudah di atas!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Seseorang rupanya, menurut yang saya dengar dari radio, tidak menggunakan tiket.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, bisa tolong tetap di sana sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~Tersangka:~w~ Tentu Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami dipanggil oleh staf stasiun kereta, mereka heran bagaimana caranya Anda bisa melewati gerbang pemeriksaan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Seperti orang lain pada umumnya, menggunakan tiket kereta saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Keberatan kalau saya lihat tiketnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Eh, tentu. Tapi saya tidak mengerti kenapa Anda harus memeriksanya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sepertinya semuanya aman dan sah, selamat menikmati sisa perjalanan Anda!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Stasiun:~w~ Senang melihat Anda Pak Polisi, terima kasih sudah datang begitu cepat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama sekali tidak masalah, bisa tolong berikan detail mengenai situasi yang terjadi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Petugas Stasiun:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti. Benar-benar bukan situasi yang bagus. Kira-kira di mana posisi mereka sekarang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Stasiun:~w~ Belum ada kereta yang lewat sedari tadi, jadi kemungkinan besar mereka masih ada di peron.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih atas semua bantuannya, saya akan menemui mereka sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Stasiun:~w~ Mohon maaf sudah memanggil Anda untuk masalah sepele seperti ini, kami sangat menghargainya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama sekali tidak masalah, bisa tolong berikan detail mengenai situasi yang terjadi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Petugas Stasiun:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, sepertinya kita berhadapan dengan pelanggar tiket. Di mana kira-kira mereka berada?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Stasiun:~w~ Biar saya pikir dulu. Mereka pasti ada di peron, hanya itu satu-satunya tempat yang bisa mereka tuju.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Mengerti, kalau begitu saya akan periksa ke sana dulu!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Aksi Unjuk Rasa]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~r~aksi unjuk rasa sedang berlangsung~w~ dan memblokir jalan raya. Harap tunggu instruksi lebih lanjut dari Dispatch.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Aksi unjuk rasa kini ~r~bereskalasi menjadi kerusuhan.~n~~y~Segera menuju ke lokasi!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Awasi aksi unjuk rasa~w~ hingga selesai. Pastikan segalanya berjalan tertib dan lancar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Aksi unjuk rasa berlangsung ~g~damai tanpa eskalasi~w~, dan sekarang sedang berakhir.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Aksi unjuk rasa sedang berlangsung. Harap lakukan pendekatan dengan ~o~koordinator aksi.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Para demonstran saat ini sedang ~g~meninggalkan lokasi kejadian~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Warga sekitar:~w~ Pak Polisi, ini konyol! Lalu lintas harus segera dibuka!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Warga sekitar:~w~ Mereka memblokir jalan! Usir mereka! Ini sangat berbahaya.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Warga sekitar:~w~ Pak Polisi, saya sudah bilang singkirkan mereka dari jalan!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Warga sekitar:~w~ Para demonstran yang memblokir jalan ini benar-benar bikin muak!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~Tersangka: ~w~Pak Polisi, apakah Anda mau bergabung mendukung perjuangan kami?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Aksi unjuk rasa ini memperjuangkan apa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="passionate"><![CDATA[~r~Tersangka: ~w~Kami yakin perubahan iklim sedang merusak negara kita - dan pemerintah harus bertindak sekarang juga!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Maaf, Anda harus pindah dari sini. Jika Anda berunjuk rasa dengan cara memblokir jalan raya, Anda harus memiliki izin resmi terlebih dahulu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Tapi kenapa? Kami berdemonstrasi untuk tujuan yang mulia!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Aksi unjuk rasa ini tidak memiliki izin. Anda tidak boleh sembarangan memblokir jalan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Tersangka:~w~ Saya sudah bilang ke yang lain soal ini... tapi mereka tidak mau dengar. Baiklah saya akan beritahu mereka kita harus pergi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Terima kasih. Tolong rapikan barang-barang kalian agar lalu lintas bisa kembali normal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="disappointed"><![CDATA[~r~Tersangka:~w~ Oke teman-teman, unjuk rasa kita bubarkan. Mari kita pergi sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~Tersangka: ~w~Lihat siapa yang datang untuk mendukung aksi kita!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Mengapa kalian berunjuk rasa di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Harga bahan pokok melambung tinggi dan kami sudah muak! Kami bisa mati kelaparan!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Aksi unjuk rasa tidak boleh dilakukan di sini, kalian membahayakan keselamatan umum.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Kami tidak mau pindah, Pak Polisi. Ini adalah perjuangan yang adil!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Saya minta kalian pindah, kalian melakukan unjuk rasa secara ilegal di tempat ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Pak Polisi, kami TIDAK AKAN pindah! Pergi urus orang lain saja sana.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>

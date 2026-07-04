@@ -1,0 +1,85 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Berhasil dimuat~w~, selamat bertugas!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Anda menggunakan versi lama!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Berhasil dimuat, namun mohon perbarui 686 Callouts jika memungkinkan.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Versi Beta terdeteksi.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Terima kasih atas pengujian & masukan Anda. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Gagal memeriksa pembaruan!]]></FAILED>
+		<FAILED><![CDATA[~y~Berhasil dimuat, namun sistem tidak dapat memeriksa pembaruan.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts kekurangan file sistem!]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Folder 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Folder Audio]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[File Audio]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Folder Translations]]></TRANSLATIONSFOLDER>
+		<DATAFOLDER><![CDATA[Folder Data]]></DATAFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Statistik Karier]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Panggilan]]></CALLS>
+		<FIGHTS><![CDATA[Perkelahian]]></FIGHTS>
+		<PURSUITS><![CDATA[Pengejaran]]></PURSUITS>
+		<ARRESTS><![CDATA[Penangkapan]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Tersangka tewas]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// Notifications related to AI Voices.
+	<AI>
+		<AIVOICES><![CDATA[Suara AI 686 Callouts:]]></AIVOICES>
+		<VOICEDOWNLOAD><![CDATA[Status: Mengunduh ~n~~y~{0} GB~w~ / ~g~{1} GB~w~ [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Status: Memasang ~n~~y~{0}~w~ / ~g~{1}~w~ file [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Status: ~g~Terpasang secara otomatis~w~.]]></VOICEDOWNLOAD>
+	</AI> 
+	
+	/// Notifications relating to the Backup Helicopter Search Team.
+	<SEARCHHELI>
+		<REQUESTHELI><![CDATA[Tekan ~y~{0}~w~ dalam 10 detik ke depan jika Anda membutuhkan bantuan dari ~b~helikopter pencari~w~.]]></REQUESTHELI>
+		<ISAVAILABLE><![CDATA[Helikopter pencari ~g~tersedia untuk membantu~w~.]]></ISAVAILABLE>
+		<ISAVAILABLE><![CDATA[Helikopter pencari ~r~tidak dikirim untuk membantu~w~.]]></ISAVAILABLE>
+		<LOCATEDPED><![CDATA[Dukungan udara telah ~g~menemukan target~w~ di zona {0} dan akan tetap berada di area tersebut hingga Anda tiba. ~y~Periksa peta Anda~w~.]]></LOCATEDPED>
+		<ZONESEARCH><![CDATA[Dukungan udara menuju ke zona {0}.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[Dukungan udara menuju ke zona {0}. Zona {1} dinyatakan aman.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~b~biru~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~o~oranye~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~g~hijau~w~]]></ZONESEARCH>
+	</SEARCHHELI>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Analisis perilaku~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[Tersangka terlihat~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Korban terlihat~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Pencegahan Crash]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Terdapat masalah sistem.~w~ Silakan hubungi tim dukungan.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Pemeriksaan Jarak]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Maaf, Anda berada terlalu dekat untuk memulai panggilan tugas tersebut.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Masalah dari GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV menghapus salah satu karakter ped kami! Sistem telah mencegah terjadinya crash, namun hal ini seharusnya jarang terjadi.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Dispatch]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Percakapan selesai. Tangani situasi sesuai diskresi Anda.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Tekan ~y~{0}~w~ untuk mulai berbicara.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Tekan ~y~{0}~w~ kapan saja untuk mengakhiri panggilan tugas.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Informasi]]></INFORMATION>
+		<CODE4><![CDATA[~g~Kode 4.~w~ Tandai unit tersedia untuk panggilan tugas baru.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Pembaruan Pengejaran]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[meyakini tersangka adalah ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[meyakini tersangka adalah ~y~{0}~w~ yang memiliki riwayat ~y~{1}~w~ pelanggaran sebelumnya.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[meyakini tersangka berjenis kelamin ~y~pria~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[meyakini tersangka berjenis kelamin ~y~wanita~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[meyakini tersangka adalah ~y~{0}~w~ yang telah diperhentikan ~y~{1}~w~ kali sebelumnya.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[~y~tidak memiliki detail~w~ mengenai tersangka.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[PANGGILAN DARURAT]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Panggilan: ~b~{0}~n~~w~Lokasi: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

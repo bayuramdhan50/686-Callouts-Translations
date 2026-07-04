@@ -1,0 +1,50 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sepeda Kayuh Dicuri]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~sepeda curian telah terlihat~w~, hentikan pengendara tersebut.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Boleh saya ajukan beberapa pertanyaan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Tersangka:~w~ Tentu, silakan. Tapi hati-hati lalu lintas di belakang Anda itu. Awas!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Bisa kita bicara sebentar tentang sepeda itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Memangnya ada apa dengan sepeda ini?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sepeda ini dilaporkan dicuri, hari ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka:~w~ Oh, haha. Maaf, saya yang melapor! Saya kira sepedanya hilang, ternyata sudah ketemu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oh begitu, jadi sepeda ini terdaftar atas nama Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="proud"><![CDATA[~r~Tersangka:~w~ Ya, betul sekali. Silakan periksa di sistem jika tidak percaya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[gelisah]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Saya menemui Anda karena sepeda yang Anda pakai itu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Saya sedang buru-buru. Ban sepeda saya tidak bocor kok. Ada apa ya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kemarin sepeda ini dilaporkan dicuri.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Oh. Uhh, aneh sekali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda pasti tahu alasannya kan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~Tersangka:~w~ Uh... iya! Saya sama sekali lupa kalau saya sendiri yang melapor sepeda ini hilang.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Bisa kita bicara sebentar tentang sepeda itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Oke.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Berdasarkan catatan kami, sepeda ini baru saja dilaporkan dicuri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Tersangka:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Maaf, bicara apa barusan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~Tersangka:~w~ Saya tidak mau berkomentar soal itu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ ARRRRGGGHH! JANGAN GANGGU SAYA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

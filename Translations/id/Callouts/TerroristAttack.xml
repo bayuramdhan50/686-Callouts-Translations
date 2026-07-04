@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Serangan Teroris]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Serangan teroris sedang berlangsung di ~y~{0}~w~. Amankan para ~r~teroris~w~ untuk mencegah jatuhnya korban jiwa lebih banyak.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sebuah ~y~kendaraan mencurigakan~w~ menuju ke lokasi Anda. Amankan tempat kejadian!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Peringatan: ~y~{0}~w~ individu mencurigakan sedang menuju ke arah lokasi Serangan Teroris.]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

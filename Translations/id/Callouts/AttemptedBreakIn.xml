@@ -1,0 +1,82 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Percobaan Pembobolan Rumah]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang pemilik rumah melapor adanya ~y~percobaan pembobolan~w~ di properti miliknya. Pelaku dilaporkan telah melarikan diri dari tempat kejadian.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Tekan ~y~{0}~w~ untuk mengumpulkan barang bukti.]]></OTHER>
+		<OTHER><![CDATA[Berhasil mengumpulkan ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[kartu identitas]]></OTHER>
+		<OTHER><![CDATA[dompet]]></OTHER>
+		<OTHER><![CDATA[sepasang gunting]]></OTHER>
+		<OTHER><![CDATA[kalung]]></OTHER>
+		<OTHER><![CDATA[sepatu]]></OTHER>
+		<OTHER><![CDATA[linggis]]></OTHER>
+		<OTHER><![CDATA[ponsel]]></OTHER>
+		<OTHER><![CDATA[~y~Cari~w~ barang bukti & petunjuk pembobolan di area sekitar. Setelah selesai, ~y~kembali ke pemilik rumah~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Alat pembobol kunci (Lockpick)]]></OTHER>
+		<OTHER><![CDATA[~r~Sarung tangan]]></OTHER>
+		<OTHER><![CDATA[~y~Topeng]]></OTHER>
+		<OTHER><![CDATA[~y~Balaclava]]></OTHER>
+		<OTHER><![CDATA[~r~Pisau lipat]]></OTHER>
+		<OTHER><![CDATA[~r~Linggis kecil]]></OTHER>
+		<OTHER><![CDATA[~y~Teropong]]></OTHER>
+		<OTHER><![CDATA[~r~Kain pembekap mulut]]></OTHER>
+		<NOTIFICATION><![CDATA[Gunakan ~y~foto~w~ dan ~y~area pencarian~w~ untuk menangkap ~r~tersangka~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ini adalah ~y~foto~w~ dari ~r~tersangka~w~.~n~Tekan ~y~Y~w~ untuk melihat pemberitahuan ini lagi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Tidak ditemukan barang bukti~w~ di lokasi ini.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Saya menemukan ~y~{0}~w~ atas nama ~r~{1}~w~. Meminta informasi lengkap mengenai orang ini segera.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[Memeriksa semua pantauan di sekitar atas nama ~r~{0}~w~. Tunggu sebentar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mengumpulkan ~y~{0}~w~/~g~{1}~w~ barang bukti.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mengumpulkan ~g~{0}~w~/~g~{1}~w~ barang bukti.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Setelah Anda ~y~menangkap~w~ ~r~tersangka~w~, lanjutkan tugas sesuai diskresi Anda.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Tersangka~w~ melarikan diri!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~Tersangka~w~ ~y~menyerahkan diri~w~. Tangkap dan lakukan pemeriksaan.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Korban:~w~ Tolong saya Pak Polisi! Tolong!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Saya di sini Pak. Anda sudah aman sekarang. Bisa jelaskan apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Saya di sini Bu. Anda sudah aman sekarang. Bisa jelaskan apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Seseorang mencoba mendobrak masuk... Saya mendengar suara mereka, saya langsung lari dan mengunci diri di kamar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti. Apakah Anda sempat melihat ciri-ciri mereka?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Korban:~w~ Tidak, tapi saya mendengar banyak pergerakan di luar rumah sampai Anda datang. Saya tidak tahu apa yang mereka lakukan!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih. Biar saya periksa sekeliling properti ini untuk mencari petunjuk.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sudah menyisir area sekitar tapi sayangnya belum menemukan bukti yang mengarah ke tersangka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Korban:~w~ Sayang sekali... lalu sekarang bagaimana?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tim detektif akan datang nanti untuk melakukan penyelidikan lebih lanjut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sayangnya, pemeriksaan awal ini belum membuahkan hasil. Hanya ini yang bisa saya lakukan sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sudah memeriksa area sekitar dan menemukan bukti yang mengarah ke pelaku. Saya akan pergi mencari mereka sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Korban:~w~ Baguslah kalau begitu, semoga berhasil Pak Polisi!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Tolong, Pak Polisi! Saya mendengar suara orang di luar, saya sangat ketakutan!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Anda:~w~ Tenang Pak, saya sudah berada di sini. Bisa jelaskan apa yang Anda dengar barusan?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Anda:~w~ Tenang Bu, Anda sudah aman sekarang. Bisa ceritakan apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Saya mendengar jendela dipukul-pukul, tapi saya tidak berani mengintip.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah. Apakah Anda melihat sesuatu yang mencurigakan sebelum kejadian ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Tidak, sebelumnya tenang-tenang saja. Tolong, temukan siapa pelakunya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya akan berusaha semaksimal mungkin. Biar saya periksa area sekitar untuk mencari tanda-tanda penyusup.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sudah menyisir sekeliling, namun belum menemukan petunjuk yang mengarah ke pelaku.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Korban:~w~ Oh tidak, lalu bagaimana ini?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kita harus menunggu tim detektif mengambil alih penyelidikan ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sayangnya, untuk saat ini belum banyak yang bisa saya lakukan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kabar baik! Saya menemukan barang bukti di dekat sini yang bisa mengarah ke pelakunya. Saya akan segera melacak petunjuk ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Syukurlah kalau begitu, Pak Polisi! Terima kasih banyak dan hati-hati di jalan.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

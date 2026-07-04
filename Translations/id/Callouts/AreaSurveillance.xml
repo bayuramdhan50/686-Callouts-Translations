@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pengawasan Area Diperlukan]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Menuju ke penanda di ~y~{0}~w~ dan berikan ~b~kehadiran polisi~w~ di area yang ditentukan.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tetap parkir dan awasi ~o~aktivitas mencurigakan~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Sebuah ~r~tas mencurigakan~w~ ditemukan di dekat area!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Coba ~o~jinakkan~w~ bom dengan menemukan ~r~orang yang meletakkannya~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda telah ~r~menemukan pelaku bom~w~. Tangkap mereka untuk mendapatkan ~g~kode pembatal bom.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda berhasil ~g~mendapatkan kode pembatal~w~. Segera menuju ke ~r~bom~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk ~r~menjinakkan bom~w~ tanpa kode pembatal (kode berada pada orang yang meletakkan tas).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk ~r~menjinakkan bom~w~ menggunakan kode pembatal.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Masukkan kode pembatal, angka antara 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tebak kode pembatal, angka antara 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Gagal menjinakkan bom~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bom berhasil dijinakkan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kode Pembatal: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Input tidak valid.~w~ Harap masukkan angka antara ~y~1~w~ dan ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Pengawasan Area berlangsung ~g~aman tanpa insiden~w~. Kembali berpatroli.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

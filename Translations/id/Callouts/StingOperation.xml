@@ -1,0 +1,117 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Operasi Penyamaran]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang petugas sedang menjalankan operasi penyamaran terhadap ~r~perdagangan senjata api ilegal~w~. Berkendaralah ke ~y~titik pertemuan~w~ dan bicaralah dengan mereka.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Antar ~y~informan~w~ tersebut ke ~r~toko senjata~w~ dan parkirkan kendaraan di dekat sana.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Saat Anda ~o~memarkirkan kendaraan secara tersembunyi di luar toko~w~, tekan ~y~{0}~w~ untuk memulai operasi penyamaran.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Masuklah ke ~r~Ammunation~w~ dan tangkap kasir atas ~r~perdagangan senjata api ilegal~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Kasir: ~w~Kamu orang yang dikirim Terry?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informan: ~w~Ya. Dia bilang kamu tahu tujuanku datang ke sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~Kasir: ~w~Tergantung. Kamu mencari untuk pertahanan rumah, atau... sesuatu yang sedikit lebih keras?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~b~Informan: ~w~Sesuatu yang tidak macet saat dibutuhkan. Kamu paham maksudku?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~r~Kasir: ~w~Ada barang yang pas. Tanpa surat-surat, laras bersih. Kamu bawa uang tunainya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Informan: ~w~Semua ada di sini. Sesuai dengan yang kita bicarakan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Kasir: ~w~Baiklah. Biar kubungkus. Jangan tunjukkan barang itu sampai kamu keluar dari sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Informan: ~w~Tenang saja. Kita selesai?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~r~Kasir: ~w~Kita selesai. Sekarang pergi dari sini.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informan:~w~ Ini dia, tepat seperti yang dia janjikan. Tanpa nomor seri, ada di dalam tas ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Dia menyerahkannya dengan mudah. Saya bilang Terry yang mengirim saya, seperti yang kita latih. Dia bertanya apakah saya ingin “pertahanan rumah atau sesuatu yang lebih keras.”]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informan:~w~ Saya bilang saya butuh sesuatu yang bisa diandalkan — sesuatu yang tidak akan macet. Saat itulah dia menawarkan barang ini kepada saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Tidak ada surat-surat yang disebutkan.. Dia bilang “laras bersih, tanpa surat-surat.” Dia minta uang tunai, saya serahkan, lalu dia menyuruh saya pergi dengan tenang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informan:~w~ Satu hal lagi sebelum Anda masuk — dia punya senapan mesum (shotgun) yang disembunyikan di bawah konter, sebelah kiri. Dia mungkin akan bertindak nekat.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informan:~w~ Ini dia, tepat seperti yang dia janjikan. Tanpa nomor seri, ada di dalam tas ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Tapi masalahnya — saya pernah melihat ini sebelumnya. Saya sangat yakin ini adalah senjata yang digunakan dalam penembakan di East Vinewood bulan lalu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Informan:~w~ Goresan yang sama di sisinya, pisir belakang yang hilang juga sama. Saya ingat karena foto tempat kejadian perkara itu tersebar luas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informan:~w~ Jika ini benar seperti yang saya pikirkan, dia menyimpan barang bukti — dan dia bahkan tidak tahu, atau dia pura-pura bodoh. Yang jelas, masalah ini jadi sangat serius.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Informan:~w~ Anda harus masuk dan menangkapnya, tapi berhati-hatilah. Ini bisa menjadi kacau.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informan:~w~ Ini dia. Tanpa nomor seri, tidak bisa dilacak, tepat seperti yang dia katakan. Langsung dari bawah konter.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informan:~w~ Dia tidak banyak bertanya. Menerima uang tunai, lalu menyerahkannya dalam tas tertutup.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~Informan:~w~ Tapi dia terus melihat ke arah jendela. Saya pikir dia cuma paranoid.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Informan:~w~ — Tunggu, sebentar. Hei—dia lari. Kasir itu, dia kabur lewat pintu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Informan:~w~ Dia pasti melihat saya atau melihat sesuatu yang tidak dia sukai. Sebaiknya Anda bergerak — dia tidak akan tinggal diam!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Kasir: ~w~Kamu orang yang dikirim Terry?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informan: ~w~Ya. Dia bilang kamu bisa membantuku... untuk barang di luar catatan resmi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Kasir: ~w~Kami punya katalog, izin resmi, pemeriksaan latar belakang. Bantuan semacam itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informan: ~w~Bukan, aku ke sini bukan untuk urusan birokrasi rumit. Aku butuh senjata api kelas berat, tanpa banyak tanya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Kasir: ~w~Tanpa banyak tanya? Kamu yakin berada di tempat yang tepat, kawan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pushy"><![CDATA[~b~Informan: ~w~Ayolah, kawan. Terry bilang kamu punya aksesnya. Otomatis penuh, tanpa nomor seri, stok bersih. Aku siap beli sekarang juga.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Kasir: ~w~Terry terlalu banyak bicara. Keluar dari sini. Dan jangan pernah kembali lagi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Informan: ~w~Baiklah, baiklah. Tidak masalah. Aku pergi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Kasir: ~w~Memang seharusnya begitu. Jangan coba-coba mengujiku.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="regretful"><![CDATA[~y~Informan:~w~ Itu gagal total. Dia langsung menolaknya saat saya mulai spesifik.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ashamed"><![CDATA[~y~Informan:~w~ Saya pikir jika saya menunjukkan bahwa saya serius, dia akan menawarkan barangnya. Sebaliknya, dia langsung terdiam dan waspada dengan sangat cepat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Saya meminta senjata otomatis penuh, tanpa nomor seri... saya bilang saya sudah siap dengan uang tunainya. Dia malah menyuruh saya keluar.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informan:~w~ Saya mendesaknya terlalu keras. Ini salah saya. Saya pikir saya bisa menyelesaikannya dengan cepat, tapi saya malah menghancurkan penyamarannya. Maafkan saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informan:~w~ Tidak ada lagi yang bisa ditindaklanjuti — kita tidak punya bukti. Maaf kali ini tidak berhasil. Terkadang memang seperti itu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informan:~w~ Yah... saya turun di sini saja. Anda sebaiknya kembali berpatroli — mungkin yang satu ini memang jalan buntu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Kasir: ~w~Kamu orang yang dikirim Terry?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informan: ~w~Ya. Dia bilang kamu bisa membantuku... untuk barang di luar catatan resmi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Kasir: ~w~Kami punya katalog, izin resmi, pemeriksaan latar belakang. Bantuan semacam itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informan: ~w~Bukan. Aku tidak mau mengisi surat-surat. Aku butuh sesuatu yang bersih dan tidak bisa dilacak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~r~Kasir: ~w~Kamu ini polisi ya? Karena ini terasa seperti jebakan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Informan: ~w~Apa aku terlihat seperti polisi? Terry menjamin diriku. Aku bawa uang tunai. Hanya itu yang penting.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Kasir: ~w~Ya? Terry terlalu banyak bicara. Orang terakhir yang dia kirim membawa masalah ke tempatku.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~Informan: ~w~Bukan aku. Aku datang dan pergi, pembelian sekali saja. Otomatis penuh, tanpa nomor seri, stok bersih. Itu kesepakatannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~Kasir: ~w~Kamu yakin tahu apa yang kamu minta? Barang seperti itu tidak jatuh begitu saja dari truk.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Informan: ~w~Aku tahu persis apa yang aku minta. Aku bawa uangnya. Katakan saja ya atau tidak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Kasir: ~w~...Mungkin. Tergantung siapa yang mengawasi hari ini. Kamu sendirian?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Informan: ~w~Tidak ada yang membuntuti. Tidak ada penyadap. Cuma aku dan uang tunai.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Kasir: ~w~Baiklah. Tunggu di sini. Biar kuperiksa ke belakang.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Anggota Geng 1: ~w~Hei! Kamu pikir kami tidak akan tahu kalau kamu menjual kepada kru Big Ray?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Kasir: ~w~Aku tidak tahu apa yang kalian bicarakan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~r~Anggota Geng 2: ~w~Jangan mengelak. Kamu memberi mereka berkerat-kerat senjata minggu lalu. Sekarang mereka pamer seolah-olah menguasai jalanan ini. Ini semua salahmu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Anggota Geng 1: ~w~Kami adalah pelanggan setia. Sekarang kamu bertransaksi dengan musuh — dan saat kami berdiri tepat di sini? Sangat tidak menghormati.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Kasir: ~w~Dengar—bisnis adalah bisnis. Aku tidak memihak siapa pun.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Anggota Geng 2: ~w~Jawaban yang salah, bajingan. Kamu baru saja memihak sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Kasir: ~w~Hei! Jangan—jangan lakukan hal bodoh!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Informan:~w~ Saya tidak mau mati konyol di sini!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="excited"><![CDATA[~y~Petugas:~w~ Terima kasih sudah datang Pak- mari kita bicarakan bagaimana kita bisa memberantas perdagangan senjata ilegal ini!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="excited"><![CDATA[~y~Petugas:~w~ Terima kasih sudah datang Bu- mari kita bicarakan bagaimana kita bisa memberantas perdagangan senjata ilegal ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas:~w~ Kami telah menyelidiki banyak penggunaan senjata api ilegal, dan kami yakin kami sudah menemukan pelakunya sekarang- kami hanya butuh buktinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas:~w~ Penyelidikan kami mengarah pada toko senjata di dekat sini. Surat-surat mereka semuanya lengkap, tetapi insiden penembakan baru-baru ini melacak jejaknya kembali ke sini. ]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas:~w~ Dan sumber dari semua senjata ini? Toko ini. Tim forensik kami benar-benar sangat hebat dalam pekerjaan mereka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Saya informannya, dan bersama-sama kita akan menuju ke toko di dekat sini. Kita sudah siap untuk momen ini sejak lama.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas:~w~ Saya harus kembali berpatroli sekarang- antarkan informan ke toko tersebut, dia akan memberitahu Anda semua yang perlu Anda ketahui di jalan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kedengarannya bagus. Naik ke mobil saya, mari kita mulai operasi penyamaran ini!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Baiklah, jadi begini rencananya. Saya masuk ke dalam, meminta “senjata bersih.” Sesuatu yang tidak bisa dilacak.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informan:~w~ Anda tetap di luar — tunggu di mobil, mesin menyala, tapi usahakan tidak terlihat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="instructive"><![CDATA[~y~Informan:~w~ Jika Anda bisa mendengar apa yang terjadi dari luar pintu, itu bagus. Tapi jangan terlalu mencolok. Orang-orang ini mudah waspada dan curiga.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informan:~w~ Setelah transaksi selesai, saya akan keluar seolah-olah tidak terjadi apa-apa dan kembali ke kendaraan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Informan:~w~ Kita harap saja mereka tidak mencium bau jebakan. Terakhir kali ada yang mencoba macam-macam di dalam sana, dia tidak pernah keluar lagi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informan:~w~ Jika semuanya berjalan lancar, kita berhenti di toko, saya turun, melakukan transaksi, kembali ke mobil — lalu kita bicarakan langkah selanjutnya. Oke?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informan:~w~ Meskipun begitu, jika terjadi sesuatu yang buruk, mereka menyadarinya atau kita mendapat tamu tak diundang, saya butuh Anda untuk melindungiku.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Informan:~w~ Saya pernah melakukan pekerjaan yang lebih buruk dari ini. Tapi saya ingin melewati tugas yang satu ini tanpa ada lubang peluru di tubuh saya. Jangan sampai kita mengacaukan ini.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT> 

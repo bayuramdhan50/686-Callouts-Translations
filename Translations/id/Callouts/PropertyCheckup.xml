@@ -1,0 +1,156 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pemeriksaan Properti]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~Pantau properti secara diam-diam~w~ dari ~o~aktivitas mencurigakan~w~. Jika Anda melihat sesuatu yang mencurigakan, segera ambil tindakan.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Tidak melihat apa-apa?~w~~n~Tekan ~y~{0}~w~ untuk mengakhiri panggilan jika semuanya aman terkendali.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Periksa rumah~w~ untuk mencari tahu apa yang mungkin memicu ~y~alarm senyap~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Bicaralah dengan pemilik rumah~w~ di properti tersebut.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Seorang penelepon melaporkan ~o~perilaku mencurigakan~w~ di dekat sebuah ~o~properti~w~. Mereka tidak yakin apakah ada orang di rumah. ~y~Periksa properti tersebut~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sebuah ~y~kendaraan~w~ telah ~r~dicuri~w~ di properti tersebut. Tangkap tersangkanya!]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Pencuri:~w~ Bagaimana bisa kamu tahu aku ada di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Pencuri:~w~ Oke, oke! Aku menyerah! Jangan menembak!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Pencuri:~w~ Sialan... Padahal sedikit lagi aku bisa kabur!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Pencuri:~w~ Tidak sudi aku tertangkap karena ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~Pencuri:~w~ Kamu harus tangkap aku dulu, polisi!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Pencuri:~w~ Tidak! Aku tidak mau kembali ke penjara!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~Pencuri 1:~w~ Yang ini terkunci rapat. Bagaimana di sisimu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~r~Pencuri 2:~w~ Tidak, kusennya kokoh. Linggiskuk pun tidak bisa masuk dengan pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Pencuri 1:~w~ Tempat ini kelihatan lebih mudah pas kita survei tadi. Kamu yakin ini sepadan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Pencuri 2:~w~ Kita sudah di sini kan? Terus saja coba—pelan-pelan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~r~Pencuri 1:~w~ Kalau aku tekan terlalu keras, seluruh kacanya bakal bergetar.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~Pencuri 2:~w~ Kalau begitu jangan ditekan. Cari titik lemahnya. Gagangnya, atau mungkin engselnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="whisper"><![CDATA[~r~Pencuri 1:~w~ Rasanya kita cuma buang-buang waktu di sini. Tidak ada yang bisa dibuka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="dry"><![CDATA[~r~Pencuri 2:~w~ Kalau begitu cari terus. Salah satu dari ini pasti akan terbuka.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Pencuri 1:~w~ Sialan—lari! Cepat, cepat, cepat!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Pencuri 2:~w~ Sudah kubilang kita menunggu terlalu lama! Bergerak!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defeated"><![CDATA[~r~Pencuri 1:~w~ Baiklah, baiklah! Angkat tangan! Aku menyerah!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Pencuri 2:~w~ Sudah kubilang… properti ini adalah kesalahan!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tangkap ~y~2 pencuri~w~ yang telah ~o~melarikan diri menggunakan mobil van~w~!]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Barang Curian]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~r~Pencuri:~w~ Masuk ke dalam van! Ayo jalan, CEPAT!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Periksa identitas~w~ tukang kebun dan setelah Anda yakin, tekan ~y~{0}~w~ untuk ~g~mempersilakan mereka pergi~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Tukang Kebun:~w~ Astaga! Anda mengejutkan saya! Saya—saya bekerja di sini, sumpah!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tenang. Saya merespons alarm senyap yang dipicu dari tempat ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Tukang Kebun:~w~ Oh… itu mungkin saya. Saya datang lebih awal dan tidak menyadari ada sesuatu yang menyala.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda punya kartu identitas? Saya hanya perlu memverifikasi bahwa Anda memang seharusnya berada di sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Tukang Kebun:~w~ Ya, tentu—ini dia. Benar-benar maaf soal itu, Pak Petugas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak masalah. Tunggu sebentar sementara saya memeriksa ini.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Seorang pemilik rumah melaporkan ~y~2 penghuni liar~w~ yang berada di propertinya.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Periksa rumah~w~ untuk menemukan ~y~2 penghuni liar~w~ tersebut.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="startled"><![CDATA[~y~Penghuni Liar:~w~ Whoa—hei! Kami tidak mencoba membuat masalah, oke?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini adalah properti pribadi. Apakah salah satu dari kalian tinggal di sini atau mengenal pemiliknya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~y~Penghuni Liar:~w~ Tidak, kami cuma butuh tempat untuk menumpang tidur. Halaman belakangnya kelihatan kosong... kami pikir tidak ada yang akan keberatan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Pemilik rumah keberatan. Mereka menelepon mengira ada seseorang yang membobol masuk.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~Penghuni Liar:~w~ Ya... kami tidak merusak apa pun atau masuk ke dalam. Cuma berdiam diri di luar sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya mengerti situasi kalian, tapi kalian tidak bisa tinggal di sini. Saya minta kalian berdua membereskan barang-barang dan pergi dari properti ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="resigned"><![CDATA[~y~Penghuni Liar:~w~ Baiklah. Kami akan pergi. Kami tidak bermaksud mengganggu siapa pun. Ayo, mari kita kemasi barang.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Penghuni Liar:~w~ Apa lagi sekarang? Kami cuma duduk di sini. Tidak menyakiti siapa pun.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini properti milik orang lain. Kamu dan temanmu harus pergi—sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Penghuni Liar:~w~ Kami tidak akan pergi ke mana-mana. Tempat ini terlihat terbengkalai. Kami sudah di sini dua malam dan tidak ada yang protes.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak peduli berapa lama kamu sudah di sini. Pemilik rumah melaporkan adanya masuk tanpa izin.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Penghuni Liar:~w~ Ya? Kalau begitu seharusnya mereka bicara sendiri bukannya bersembunyi di belakang polisi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Cukup. Saya tidak akan meminta lagi—kemasi barang-barang kalian dan angkat kaki dari sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~y~Penghuni Liar:~w~ Kami tidak akan pergi. Kamu mau memaksa kami?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Seorang pemilik rumah melaporkan bahwa ~o~alarm asap~w~ mereka aktif. Amankan lokasi kejadian!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Temukan ~r~sumber api~w~, evakuasi ~y~area sekitar~w~ dan amankan lokasi kejadian.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Seorang pemilik rumah melaporkan adanya ~y~perselisihan~w~ dengan tetangganya.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Pemilik Rumah:~w~ Kamu benar-benar berpikir membuang sampah di sekitar propertiku akan membuktikan poinmu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~Tetangga:~w~ Sudah kubilang—aku muak dengan caramu memperlakukan area bersama. Harus ada tindakan tegas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, cukup. Apa yang terjadi di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Pemilik Rumah:~w~ Pak Petugas, mereka meninggalkan kantong sampah berserakan—di dekat pagar, dekat pintu depan saya, bahkan di samping dinding.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~Tetangga:~w~ Aku tidak membuangnya begitu saja, aku cuma… menaruhnya di sana. Setelah pertengkaran itu. Tidak maksud untuk dibiarkan di sana selamanya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda menaruh limbah rumah tangga di properti milik orang lain. Itu bukan pernyataan sikap—itu adalah pelanggaran.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~o~Tetangga:~w~ Baiklah. Saya memang kesal, oke? Saya tidak berpikir panjang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda harus memindahkan setiap kantong sampah itu—sekarang juga. Jika ini terjadi lagi, Anda akan didenda. Atau lebih buruk. Jelas?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reluctant"><![CDATA[~o~Tetangga:~w~ Ya. Saya akan mengurusnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Pemilik Rumah:~w~ Terima kasih, Pak Petugas. Saya hanya ingin sedikit ketenangan.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Alarm senyap~w~ telah ~g~dinonaktifkan~w~ di properti tersebut.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Pemilik Rumah:~w~ Pak Petugas! Maaf—ya, itu saya. Saya sudah mengira akan ada yang datang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Selamat siang. Kami menerima alarm senyap dari properti ini. Apakah semuanya baik-baik saja di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~y~Pemilik Rumah:~w~ Ya, saya melakukan kesalahan. Ini adalah rumah liburan keluarga kami—kami belum ke sini selama beberapa bulan, dan saya benar-benar lupa kode alarmnya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda sudah berhasil menonaktifkannya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Pemilik Rumah:~w~ Akhirnya, ya. Butuh beberapa kali mencoba, tapi sekarang sudah mati. Maaf sudah membuat kepanikan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Itu hal yang biasa terjadi. Apakah Anda memiliki kartu identitas atau bukti keterkaitan dengan properti ini, hanya untuk verifikasi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cooperative"><![CDATA[~y~Pemilik Rumah:~w~ Ya—SIM saya ada di saya. Anda mau melihatnya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Silakan. Setelah saya mengonfirmasi semuanya sesuai, saya akan melanjutkan tugas saya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Seorang warga melaporkan ~y~keributan yang tidak diketahui~w~ di dekat propertinya. Lakukan kontak dengan mereka.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Kami sedang melacak monitor ~y~gelang kaki pergelangan~w~. Periksa peta Anda untuk melihat ~y~pembaruan lokasi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Petugas sedang merespons ~y~van penjara yang ditinggalkan~w~. Mereka melaporkan adanya ~r~senjata api yang hilang~w~. Tersangka mungkin ~r~bersenjata dan berbahaya~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Pemilik Rumah:~w~ Pak Petugas! Ya, di sebelah sini—terima kasih sudah datang begitu cepat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami mendapat laporan tentang keributan di dekat properti ini. Anda yang menelpon?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~Pemilik Rumah:~w~ Ya, dan itu bukan sekadar orang yang nongkrong sembarangan. Saya hampir yakin dia adalah narapidana yang kabur. Dia memakai seragam jumpsuits oranye lengkap dan segalanya.]]></DIALOGUE> // The prisoner can only be male.
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia mendekati Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="disturbed"><![CDATA[~y~Pemilik Rumah:~w~ Dia tiba-tiba muncul dan mengetuk pintu samping saya. Meminta saya mengizinkannya masuk—bilang dia kedinginan dan butuh air. Tapi ada yang terasa janggal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Lalu apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="alarmed"><![CDATA[~y~Pemilik Rumah:~w~ Saya menolak, dan bilang saya akan menelpon polisi. Dia tidak suka itu—jadi tegang, melangkah maju, mulai mengintip seolah-olah mencari jalan masuk. Saya langsung menutup dan mengunci pintu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia melakukan sesuatu yang lain sebelum pergi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Pemilik Rumah:~w~ Dia mencoba memutar gagang pintu, lalu menggedor pintu sekali—dengan keras. Setelah itu dia mundur dan lari kabur. Saya tidak mengejarnya, langsung menelpon kalian.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ke arah mana dia lari?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Pemilik Rumah:~w~ Sulit dikatakan—saya kehilangan jejaknya dengan cepat. Sepertinya ke arah belakang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Dimengerti. Anda sudah melakukan tindakan yang benar. Tetaplah di dalam dan kunci semua pintu. Saya akan mencoba melacak jejaknya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ditemukan hewan ~o~berbahaya~w~ di properti tersebut.~n~~y~Tangani situasi sesuai pertimbangan Anda~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ditemukan hewan ~g~jinak~w~ di properti tersebut.~n~~y~Tangani situasi sesuai pertimbangan Anda~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Ini adalah panggilan ~y~tindak lanjut~w~. Properti ini ~y~baru-baru ini terlibat~w~ dalam sebuah keributan. ~b~Singgah dan periksa keadaannya~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~alarm senyap~w~ telah dipicu di sebuah properti perumahan. ~y~Lakukan penyelidikan~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+</CALLOUT>

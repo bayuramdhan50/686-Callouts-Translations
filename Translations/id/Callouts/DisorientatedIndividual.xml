@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Individu Disorientasi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Petugas pemantau kamera~w~ ~y~melaporkan kekhawatiran~w~ terhadap seseorang di area tersebut, silakan periksa kondisinya.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[tercium bau alkohol yang sangat menyengat]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Halo, apakah Anda baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Halo! Bisa kita bicara sebentar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka: ~w~Enggaaaakkk, saya tidak maauuu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Sepertinya kita harus bicara; apakah Anda membawa kartu identitas?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka: ~w~Hmmm... tidak makasihhh...]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka:~w~ BLALALALALA! WAKTUNYA PERGIII DADAH PAK POLISIII!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka:~w~ Halo, syukurlah Anda datang!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~ Halo, ada masalah apa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka:~w~ Saya tersesat, saya bukan warga daerah sini. Saya tidak tahu jalan pulang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oh begitu, apakah ada kerabat yang bisa menjemput Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~Tersangka:~w~ Oh iya ada! Biar saya kirim pesan ke mereka sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~ Baiklah. Jika mereka tidak bisa datang, saya akan bantu atur transportasi alternatif untuk Anda.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apa yang sedang Anda lakukan di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka:~w~ Tidak ada... baru saja pesta super seruuu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu ya, jadi Anda hanya berkeliaran di jalan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka:~w~ Iyaaa, saya sukaaa banget di luar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Bisa sebutkan nama Anda?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka:~w~ Oke.. nama saya Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jangan bercanda, sebutkan nama asli Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Tersangka:~w~ Sebentar saya ingat-ingat dulu... sepertinya nama saya {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Halo, apakah semuanya baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Iya, saya baik-baik saja.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu ya, kami baru saja menerima laporan mengenai individu yang kebingungan di area ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Oke, dan apakah itu sebuah kejahatan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak, kami hanya ingin memastikan bahwa kondisi Anda baik-baik saja.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka:~w~ Saya sangat sehat dan baik-baik saja, saya ingin Anda pergi dan jangan ganggu saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah kalau begitu, selamat melanjutkan aktivitas.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

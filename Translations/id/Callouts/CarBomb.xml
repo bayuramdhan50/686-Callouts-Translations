@@ -1,0 +1,32 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bom Mobil]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk mencoba ~y~menjinakkan bom.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kendaraan ~r~dapat meledak sewaktu-waktu~w~.~n~Harap ~y~jauhkan warga sipil dari jalur kendaraan~w~, atau ~y~akhiri pengejaran~w~ secepat mungkin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Berhasil.~w~~n~Bom telah dijinakkan. Lanjutkan tugas sesuai diskresi Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Gagal.~w~~n~Bom gagal dijinakkan. ~y~Segera evakuasi area sekitar~w~!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Intelijen melaporkan adanya ~r~bom mobil.~n~~w~Segera menuju ke lokasi ~y~sekarang juga.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tersangka ~y~melarikan diri~w~ dengan kendaraannya, dan membawa ~y~bom.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kendaraan ~r~dapat meledak sewaktu-waktu~w~.~n~Harap ~y~jauhkan warga sipil dari jalur kendaraan~w~, atau ~y~akhiri pengejaran~w~ secepat mungkin.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Detonator Bom]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Intelijen melaporkan orang dengan gangguan jiwa membawa ~r~bom mobil.~n~~w~Segera menuju ke lokasi ~y~sekarang juga.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Detonator Bom~w~, ~y~Kabel]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="fear"><![CDATA[~r~Tersangka:~w~ Saya menyerah! Pak Polisi, tangkap saya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~Tersangka:~w~ Pak Polisi... maafkan saya, semuanya harus berakhir seperti ini...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Intelijen melaporkan adanya ~r~bom mobil.~n~~w~Segera menuju ke lokasi ~y~sekarang juga.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bom mobil ~y~telah meledak.~n~~w~Laporan korban: ~r~{0} orang.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Kabel~w~,~r~Bahan Peledak]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Intelijen melaporkan sebuah ~r~bom mobil yang ditinggalkan.~w~~n~Segera menuju ke lokasi ~y~sekarang juga, dan ~y~jinakkan bom tersebut.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Kunci mobil~w~, ~r~Bom]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>

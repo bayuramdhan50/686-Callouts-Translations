@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Prostitusi (Solicitation)]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seseorang yang diduga sebagai ~y~pekerja seks komersial (prostitusi)~w~ telah dilaporkan, menuju ke lokasi kejadian ~y~menunggu instruksi lebih lanjut~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Anda sedang mendekati lokasi kejadian. Parkirkan kendaraan Anda agar ~y~tidak dicurigai~w~ oleh tersangka.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Lakukan kontak pendekatan dengan tersangka.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~r~terlalu dekat dengan tersangka~w~. Menjauh sedikit agar kehadiran Anda tidak disadari.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda ~r~membuat tersangka sadar dan waspada.~n~~w~Akibatnya, kami ~y~gagal mengumpulkan barang bukti~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tersangka telah melakukan kontak dengan sebuah kendaraan. ~y~Bicara dengan mereka dan lakukan penyelidikan.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kendaraan tersebut tidak ada hubungannya dengan ~y~tersangka.~w~ Lanjutkan tugas sesuai diskresi Anda.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Alat hisap narkoba, Serbuk putih mencurigakan]]></OTHER>
+		<OTHER><![CDATA[~y~Satu bungkus kondom]]></OTHER>
+		<OTHER><![CDATA[~y~Pelumas (Lube)~w~,~r~ Serbuk putih mencurigakan]]></OTHER>
+		<OTHER><![CDATA[~r~Gulungan uang tunai, Pisau lipat otomatis]]></OTHER>
+		<OTHER><![CDATA[~r~Gulungan uang tunai]]></OTHER>
+		<OTHER><![CDATA[~y~Celana dalam thong]]></OTHER>
+		<OTHER><![CDATA[~r~Foto-foto vulgar/eksplisit]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Pisau Berdarah]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Warga Sekitar:~w~ Di sebelah sini! Di sini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Warga Sekitar:~w~ Tolong selamatkan dia! Tolong!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apa yang terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Warga Sekitar:~w~ Saya tadi sedang jalan-jalan, lalu menemukan wanita malang ini tergeletak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda melihat kejadiannya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Warga Sekitar:~w~ Sayangnya tidak, coba saja saya datang lebih awal ke sini. Mungkin nyawanya masih bisa terselamatkan...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Dan tolong ingatkan saya - apa yang sedang Anda lakukan saat menemukan korban?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Warga Sekitar:~w~ Cuma jalan-jalan saja, saya tinggal di area sekitar sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya yakin Anda pasti mengerti, saya harus melakukan beberapa pemeriksaan rutin - jika Anda bisa tetap di sini sebentar, itu akan sangat membantu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Bu, saya perlu berbicara sebentar dengan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan adanya praktik prostitusi di area ini. Apakah Anda mengetahui sesuatu tentang hal itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Tersangka:~w~ Astaga! Bukan saya Pak Polisi, Anda salah orang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Cuaca hari ini cukup dingin tapi Anda mengenakan pakaian yang sangat minim dan terbuka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Pak Polisi, seingat saya cara berpakaian bukan merupakan tindak pidana. Saya cuma mau pergi ke pesta, dan pestanya sudah dimulai sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Menurut laporan yang kami terima, Anda terlihat berkeliaran bolak-balik di sini tanpa tujuan yang jelas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Saya cuma sedikit tersesat, itu saja. Bolehkah saya pergi sekarang?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kalian berdua - tetap di sini. Saya perlu bicara sebentar.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan mengenai praktik prostitusi yang terjadi di area ini, apakah Anda tahu hal tersebut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Korban:~w~ Ya! Wanita ini tiba-tiba mendekati mobil saya dan menawarkan 'jasa layanan'-nya...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah itu benar, Bu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="smug"><![CDATA[~r~Tersangka:~w~ Saya di sini Cuma untuk berbisnis. Anggap saja saya seorang wirausahawati.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Korban:~w~ Sangat mengganggu dan menjijikkan - saya tidak mau ada pelacur di dekat saya! Tangkap saja dia Pak Polisi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Mari kita tenang dulu, saya akan menangani masalah ini sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~y~Tersangka~w~ telah masuk ke dalam kendaraan.~n~~r~Lakukan pemberhentian lalu lintas (traffic stop) secepatnya dan selidiki situasinya~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>

@@ -1,0 +1,329 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bantuan Pemberhentian Lalu Lintas]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang ~b~petugas bantuan~w~ telah memberhentikan sebuah kendaraan dan meminta unit lain untuk memberikan bantuan pengamanan selama pemeriksaan berlangsung.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka: ~w~Tidak, ada apa? Saya merasa berkendara dengan baik.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Anda mengemudi tidak menentu, tidak bisa tetap berada di satu jalur.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Oh, saya bahkan tidak menyadarinya. Apakah memang seburuk itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Ya, saya harus mengikuti Anda sebentar untuk memastikannya. Sepertinya Anda kesulitan mengendalikan kendaraan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Maafkan saya Pak Petugas, saya memang bukan pengemudi yang terlalu percaya diri.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Apakah Anda sudah lama memiliki SIM?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Ya, saya hanya jarang mengemudi. Maafkan saya, saya sudah berusaha memperbaikinya. Saya cuma merasa ini membuat stres.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Anda harus sangat berhati-hati, Anda tidak bisa oleng antar jalur terus-menerus, ada pengguna jalan lainnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~Petugas: ~w~Jika Anda merasa gugup, luangkan waktu Anda dan fokuslah untuk tetap berada di tengah jalur Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya akan melepaskan Anda dengan sebuah peringatan, tapi saya tidak ingin melihat Anda mengemudi seperti itu lagi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Terima kasih Pak Petugas! Saya sangat menghargai kesempatan kedua ini. Semoga hari Anda menyenangkan!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka: ~w~Apakah saya mengemudi terlalu cepat, Pak Petugas?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Anda berkendara sedikit di atas batas kecepatan, Anda harus berhati-hati.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Tersangka: ~w~Oh, saya tidak menyadarinya. Seberapa cepat kelebihan saya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak banyak, tapi cukup untuk menarik perhatian saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Maafkan saya Pak Petugas, sepertinya saya tidak melihat tanda batas kecepatan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Hal itu tidak boleh terjadi lagi. Apakah Anda memiliki SIM yang sah?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Ya, Pak Petugas. Ini pertama kalinya saya diberhentikan sebelumnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Baiklah, saya akan memeriksa SIM Anda dan mengecek catatan Anda sebentar. Tunggu di sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Oke, SIM Anda terlihat tidak ada masalah jadi saya akan mengizinkan Anda melanjutkan perjalanan, tapi jadikan ini sebagai peringatan untuk Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Maafkan saya, saya akan lebih berhati-hati!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka: ~w~Tidak, apakah saya melakukan kesalahan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Lampu rem Anda mati. Itu bisa sangat berbahaya, terutama di malam hari.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Tersangka: ~w~Astaga, saya benar-benar tidak tahu! Seberapa parah?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Mati total, tidak ada cahaya sama sekali saat Anda menginjak rem. Apakah Anda sudah melakukan perawatan baru-baru ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Sudah lama tidak, sejujurnya. Saya memang sudah berniat untuk memeriksakannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya sarankan untuk memperbaikinya sesegera mungkin. Pengemudi lain perlu melihat saat Anda mengerem atau berhenti.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Apakah Anda punya bengkel terdekat yang Anda percayai?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Tidak juga, tapi saya bisa mencarinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Bagus. Saya tidak akan memberi Anda surat tilang, tapi jadikan ini sebagai peringatan. Segera perbaiki lampu rem tersebut.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka: ~w~Tentu saja, Pak Petugas. Terima kasih sudah memberitahu saya, saya akan segera mengurusnya!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka: ~w~Eh… tidak? Apakah semuanya baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Anda tidak menyalakan lampu sein saat berpindah jalur tadi. Itu bisa berbahaya, terutama dengan kondisi lalu lintas yang padat hari ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Oh, saya bahkan tidak menyadarinya! Saya pasti terlalu fokus untuk masuk jalur.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Saya mengerti, tapi sangat penting untuk memastikan pengemudi lain tahu apa yang akan Anda lakukan. Ini demi keselamatan bersama.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka: ~w~Ya, saya paham. Saya akan pastikan untuk menyalakan lampu sein mulai sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Bagus. Hanya butuh satu detik untuk menggunakan lampu sein Anda, dan itu bisa mencegah kecelakaan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~b~Petugas: ~w~Apakah Anda sering berkendara di lalu lintas yang padat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka: ~w~Biasanya tidak, tapi hari ini saya mencoba menyalip beberapa kendaraan yang melaju lambat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Baiklah, saya tidak akan mengeluarkan surat tilang hari ini, hanya peringatan. Saya percaya ini akan menjadi pengingat agar lebih memperhatikan lampu sein Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka: ~w~Tentu saja! Terima kasih sudah melepaskan saya dengan peringatan, Pak Petugas.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~Tersangka: ~w~Um… apakah saya mengemudi terlalu cepat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi Anda tidak berhenti di rambu stop di belakang sana.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Astaga… saya benar-benar minta maaf. Saya pasti tidak melihatnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Sangat penting untuk waspada—terus melaju melewati rambu stop bisa sangat berbahaya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Saya mengerti. Seharusnya saya lebih memperhatikan jalan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya harus mengeluarkan surat tilang untuk pelanggaran tersebut.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Tersangka: ~w~Saya paham. Saya akan lebih berhati-hati lain kali.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Berkendaralah dengan aman, dan pastikan untuk berhenti sepenuhnya di semua rambu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~Tersangka: ~w~Akan saya lakukan. Terima kasih, Pak Petugas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Saya tidak tahu sama sekali, apakah saya mengebut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi saya memeriksa pelat nomor Anda, dan registrasi kendaraan Anda sudah kedaluwarsa.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Apa? Itu tidak mungkin, saya pikir saya sudah memperbaruinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Menurut sistem, registrasinya berakhir bulan lalu. Apakah Anda menerima surat pemberitahuan pembaruan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Maksud saya... mungkin? Saya menerima begitu banyak surat, saya pasti melewatkannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Sayangnya, saya harus memberi Anda surat tilang karena registrasi yang kedaluwarsa.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Bagus... tepat seperti yang saya butuhkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Anda harus memperbaruinya sesegera mungkin. Petunjuknya ada di surat tilang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Baiklah. Sepertinya saya harus mengurusnya.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Tidak, tapi saya yakin Anda akan memberitahu saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya melihat Anda menggunakan ponsel saat mengemudi. Itu masalah keselamatan yang serius.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Ayolah! Saya cuma melihat GPS sebentar saja.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Itu tidak penting. Hukumnya sudah jelas—dilarang memegang perangkat elektronik saat mengemudi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Yang benar saja? ada hal-hal yang jauh lebih buruk terjadi di luar sana, dan ini yang Anda khawatirkan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Mengemudi sambil terdistraksi menyebabkan kecelakaan. Saya memberi Anda surat tilang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Luar biasa. Ini cuma cara kalian cari uang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Anda berhak menyanggah surat tilang ini di pengadilan jika Anda tidak setuju. Berkendaralah dengan aman.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Ya, terserah.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Tersangka: ~w~Um, saya tidak yakin… mungkin karena mengebut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi Anda tidak menyalakan lampu sein saat berpindah jalur tadi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka: ~w~Oh, saya tidak menyadarinya. Maafkan saya soal itu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Sangat penting untuk memberi tanda—itu menjaga keselamatan semua orang di jalan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~r~Tersangka: ~w~Saya tahu, saya akan lebih berhati-hati lain kali.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya memberi Anda surat tilang karena tidak menyalakan lampu sein.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Tersangka: ~w~Saya mengerti. Saya akan pastikan untuk memberi tanda setiap saat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Anda bisa membayar dendanya secara online, dan lebih perhatikan lampu sein Anda di masa mendatang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~Tersangka: ~w~Terima kasih, Pak Petugas. Saya pasti akan lebih memperhatikannya.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka: ~w~Tidak, saya tidak tahu. Apakah saya mengemudi terlalu lambat?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi Anda mengemudi terlalu dekat (tailgating) dengan kendaraan di depan Anda. Itu membahayakan keselamatan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Saya tidak menempel ketat! Mereka yang melaju terlalu lambat!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Petugas: ~w~Mungkin saja begitu, tapi mengikuti terlalu dekat dapat menyebabkan kecelakaan. Sangat penting untuk menjaga jarak aman.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka: ~w~Saya cuma berusaha berangkat kerja, saya tidak terlalu memikirkannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya mengerti, tapi demi keselamatan Anda dan orang lain, saya harus memberi Anda surat tilang karena mengemudi terlalu dekat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka: ~w~Bagus… tepat seperti yang saya butuhkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Pastikan untuk menjaga jarak aman mulai sekarang. Berkendaralah dengan aman.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Ya, terserah.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka: ~w~Tidak yakin, apakah saya mengebut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi saat saya memeriksa informasi Anda, ternyata SIM Anda sedang ditangguhkan (suspended).]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Tunggu, itu pasti salah. Saya sudah membereskannya beberapa minggu yang lalu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Sistem masih menunjukkannya status ditangguhkan. Anda tidak seharusnya mengemudi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Ini konyol, saya tidak mampu membayar tilang lagi. Saya butuh mobil ini untuk bekerja!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya mengerti hal itu, tapi Anda tidak boleh mengemudi dengan SIM yang ditangguhkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleading"><![CDATA[~r~Tersangka: ~w~Ayolah, Pak Petugas, pasti ada cara lain untuk menyelesaikan ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Petugas: ~w~Saya minta Anda keluar dari kendaraan sementara kita menyelesaikan masalah ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Tidak mau! Saya tidak akan keluar hanya karena kesalahan administrasi bodoh!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Petugas: ~w~Saya tidak akan meminta Anda lagi. Keluar sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Tersangka: ~w~Tahu tidak? Lupakan saja!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka: ~w~Tidak, tapi saya yakin Anda bakal memberitahu saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Lampu rem Anda mati. Anda harus memperbaikinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Tersangka: ~w~Oh… cuma itu? Saya pikir Anda memberhentikan saya karena hal lain.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~b~Petugas: ~w~Apakah Anda membawa sesuatu yang ilegal di dalam kendaraan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Apa? Tidak! Maksud saya… tidak ada yang serius.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Apa maksud Anda, tidak ada yang serius? Saya ingin Anda jujur kepada saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Tersangka: ~w~Dengar, saya punya senjata di bawah kursi, tapi itu cuma untuk perlindungan diri!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Pemilik kendaraan ini tidak memiliki izin kepemilikan senjata api. Saya minta Anda keluar dari kendaraan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Ayolah, yang benar saja?! Ini bahkan bukan masalah besar!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Petugas: ~w~Keluar dari mobil. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Tersangka: ~w~Tidak mau, saya tidak mau masuk penjara gara-gara ini!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Tidak, tapi saya yakin Anda punya alasan tersendiri.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya memperhatikan Anda berkendara oleng antar jalur tadi. Apakah Anda minum alkohol malam ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="offended"><![CDATA[~r~Tersangka: ~w~Apa? Tidak! Itu konyol. Saya cuma kelelahan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Mata Anda merah, dan saya bisa mencium bau alkohol. Saya minta Anda keluar dari kendaraan untuk tes kesadaran.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Oh, jadi sekarang saya dituduh mabuk? Ayolah, Pak Petugas, sudah kubilang, saya cuma kelelahan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Petugas: ~w~Keluar dari mobil. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Tersangka: ~w~Tahu tidak? Tidak. Saya tidak mau melakukan ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Petugas: ~w~Jangan mempersulit situasi ini dari yang seharusnya. Keluar dari kendaraan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~Tersangka: ~w~Kurasa tidak, Pak Petugas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Tersangka: ~w~Saya tidak yakin, Pak Petugas. Apakah saya mengebut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tidak, tapi registrasi kendaraan Anda sudah kedaluwarsa, dan saya perlu memeriksa kartu identitas Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Saya sudah membayar registrasinya! Tidak mungkin itu kedaluwarsa!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Saya minta Anda keluar agar kita bisa menyelesaikan ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Tersangka: ~w~Saya tidak bisa mengurus ini sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Petugas: ~w~Saya minta Anda tetap tenang dan keluar dari kendaraan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate"><![CDATA[~r~Tersangka: ~w~Saya tidak bisa. Saya cuma… Maafkan saya!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Tidak, Pak Petugas. Apa masalahnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya memberhentikan Anda karena lampu rem Anda tidak berfungsi dengan baik. Saya perlu memeriksa kartu identitas Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Anda bercanda? Cuma gara-gara itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Petugas: ~w~Ini masalah keselamatan. Saya harus memastikan kendaraan Anda layak jalan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Tersangka: ~w~Ini benar-benar konyol!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Tolong serahkan SIM dan STNK Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Saya tidak punya waktu untuk urusan ini!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Petugas: ~w~Cepat! Kembali ke kendaraan patroli kita dan kejar keparat itu!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="dismissive"><![CDATA[~r~Tersangka: ~w~Tidak tahu. Apa masalahnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Kendaraan Anda cocok dengan deskripsi kendaraan yang dilaporkan dalam insiden di dekat sini. Saya minta kartu identitas Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Itu gila! Saya ada di rumah sepanjang malam!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Pelat nomor Anda terlihat di area tersebut. Serahkan kartu identitas Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Anda melecehkan saya TANPA ALASAN! Ini OMONG KOSONG!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Petugas: ~w~Keluar dari kendaraan. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Tersangka: ~w~SAYA TIDAK AKAN KE MANA-MANA! ANDA TIDAK PUNYA HAK!]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Petugas: ~w~Kesempatan terakhir. Keluar dari kendaraan, atau saya yang akan mengeluarkan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Tersangka: ~w~PERGI JAUH-JAUH DARI SAYA! SAYA MUAK DENGAN INI!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Selamat siang Bu, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Selamat siang Pak, apakah Anda tahu mengapa saya memberhentikan Anda hari ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka: ~w~Ya, karena ada orang bodoh yang menelpon polisi untuk HAL YANG TIDAK PENTING.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Kami menerima laporan bahwa Anda mengemudi terlalu dekat secara agresif dan oleng ke arah pengemudi lain.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Oh, jadi sekarang SAYA yang jadi orang jahat? ORANG TOLOL ITU YANG MEMOTONG JALANKU DULUAN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Mengemudi ugal-ugalan adalah pelanggaran serius. Saya perlu melihat SIM Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~UNTUK APA?! SAYA MENYENTUH MOBIL MEREKA SAJA TIDAK!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding" TARGET="M"><![CDATA[~b~Petugas: ~w~Pak, serahkan SIM Anda. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding" TARGET="F"><![CDATA[~b~Petugas: ~w~Bu, serahkan SIM Anda. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Tersangka: ~w~INI OMONG KOSONG! ANDA CUMA MENCARI-CARI ALASAN UNTUK MENJEBAKKU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Petugas: ~w~Keluar dari kendaraan. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Tersangka: ~w~SAYA TIDAK AKAN MELAKUKAN APA PUN! PERGI DARI SAYA!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Petugas: ~w~Bu, Anda mau menuju ke mana?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Petugas: ~w~Pak, Anda mau menuju ke mana?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~Tersangka: ~w~Kenapa banyak sekali pertanyaan? Saya cuma sedang berkendara.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya perlu mengonfirmasi beberapa hal. Milik siapa kendaraan ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka: ~w~Milikku! Pertanyaan macam apa itu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="M"><![CDATA[~b~Petugas: ~w~Menarik, karena kendaraan ini terdaftar atas nama seorang perempuan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="F"><![CDATA[~b~Petugas: ~w~Menarik, karena kendaraan ini terdaftar atas nama seorang laki-laki.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~APA?! Itu omong kosong! Anda pasti salah melihat sesuatu!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Petugas: ~w~Sistem tidak pernah salah. Milik siapa mobil ini sebenarnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka: ~w~Sudah kubilang, ini MILIKKU! Ini buang-buang waktu saja!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Petugas: ~w~Saya minta Anda keluar dari kendaraan. Sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Tersangka: ~w~TIDAK SUDI! ANDA TIDAK AKAN MENANGKAPKU KARENA INI!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~b~Petugas: ~w~SAYA DITEMBAKI! DIA (PEREMPUAN) MEMBAWA SENJATA, HATI-HATI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~b~Petugas: ~w~SAYA DITEMBAKI! DIA (LAKI-LAKI) MEMBAWA SENJATA, HATI-HATI!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~b~Petugas: ~w~KITA HARUS MELUMPUHKAN TERSANGKA! BERIKAN SAYA TEMBAKAN PERLINDUNGAN!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Petugas: ~w~Ya Tuhan... insiden yang benar-benar menegangkan!]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Petugas: ~w~Anda datang tepat pada waktunya, terima kasih!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Terima kasih sudah datang Pak Petugas. Saya telah memberhentikan kendaraan ini dan membutuhkan bantuan pengamanan sebelum melanjutkannya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Tenang saja, apa yang ingin saya lakukan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya ingin Anda tetap berada di kendaraan patroli Anda sementara saya melakukan pemeriksaan, untuk mengantisipasi jika kendaraan tersebut melarikan diri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Kedengarannya bagus, mari kita laksanakan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Senang melihat Anda, Pak Petugas. Orang ini memberi saya firasat yang aneh, jadi saya lebih memilih ada bantuan sebelum mendekat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Apa rencananya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Tetaplah di kendaraan Anda dan bersiaplah jika mereka memutuskan untuk kabur. Saya yang akan menangani pemeriksaannya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Mari kita lihat bagaimana jalannya pemeriksaan ini.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Terima kasih sudah datang. Sekadar informasi, saya tidak ingin memperkeruh suasana, jadi saya akan melakukannya dengan tenang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Anda ingin saya memantau dari belakang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Ya, tetaplah di kendaraan Anda dan awasi situasi. Jika ada yang terasa janggal, bersiaplah.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Saya akan mengawasi.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Syukurlah Anda di sini. Saya merasa lebih tenang dengan ada mata lain yang ikut mengawasi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah, di mana posisi yang Anda butuhkan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Mendekatlah dari sisi penumpang saat saya berbicara dengan pengemudinya. Hanya untuk berjaga-jaga jika situasi memburuk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Diterima. Ayo pergi.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Petugas: ~w~Ada yang terasa janggal dari orang ini. Sangat menghargai Anda sudah datang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Tidak masalah. Apa yang Anda butuhkan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Petugas: ~w~Saya akan berbicara dengan pengemudi; Anda sebaiknya mendekat dari sisi penumpang. Risiko ancaman langsung lebih kecil jika terjadi sesuatu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah, saya bersama Anda.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Hei, terima kasih sudah datang. Saya lebih memilih untuk tidak melakukan ini sendirian.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Saya mengerti. Di mana Anda membutuhkan saya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Ambil posisi di sisi pengemudi bersama saya. Mari kita selesaikan ini dengan lugas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah, mari kita tangani.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Menghargai respons cepat Anda. Saya ingin pengemudi ini tahu bahwa ada yang mengawasi mereka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Di mana Anda ingin saya berada?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Berdirilah di sisi pengemudi bersama saya. Kehadiran ekstra tidak pernah salah.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Kedengarannya bagus. Mari kita lakukan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Terima kasih sudah mem-backup saya. Anda bisa tetap di kendaraan Anda untuk saat ini, atau bergabung dengan saya di depan—terserah Anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah, saya akan memutuskan berdasarkan bagaimana situasi berkembang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Petugas: ~w~Kedengarannya bagus. Bersiaplah jika saya membutuhkan Anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Saya siap melindungimu.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Hei, senang Anda di sini. Melihat bagaimana pemberhentian lalu lintas yang terjadi akhir-akhir ini, saya tidak ingin mendekat sendirian.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Apa rencananya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Petugas: ~w~Saya ingin Anda berada di sisi penumpang saat saya berbicara dengan pengemudi. Hanya untuk berjaga-jaga.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah, mari kita lakukan dengan cermat.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Petugas: ~w~Hei, uh… terima kasih sudah datang. Saya masih membiasakan diri melakukan pemberhentian sendirian.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Tidak masalah. Anda punya rencana?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Petugas: ~w~Ya, saya cuma merasa lebih tenang dengan adanya bantuan. Anda bisa tetap di mobil Anda atau bergabung dengan saya di sisi pengemudi. Terserah Anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Mengerti. Saya akan bersiap.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Sangat menghargai bantuan Anda, Pak Petugas! Selamat melanjutkan sisa jam tugas Anda!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Petugas: ~w~Terima kasih Pak, saya sangat menghargai Anda datang membantu pemberhentian itu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Petugas: ~w~Terima kasih Bu, saya sangat menghargai Anda datang membantu pemberhentian itu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Sangat menghargai bantuannya, Pak Petugas. Saya berutang budi pada Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Semuanya aman terkendali di sini. Tetap waspada di luar sana!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Semua selesai dengan baik. Menghargai bantuannya!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Terima kasih sudah melindungi saya. Tetap aman di tugas selanjutnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Petugas: ~w~Penyelesaian yang lancar! Sampai jumpa di panggilan berikutnya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Petugas: ~w~Terima kasih, Pak! Selalu menyenangkan memiliki rekan pengamanan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Petugas: ~w~Terima kasih, Bu! Selalu menyenangkan memiliki rekan pengamanan.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

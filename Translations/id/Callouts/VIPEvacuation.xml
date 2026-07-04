@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evakuasi VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ agar VIP mengikuti Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~ sekarang akan ~g~mengikuti Anda~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jika memungkinkan, ~o~evakuasi VIP~w~ ke kantor polisi!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP berhasil diselamatkan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP tewas.~w~ ~y~Lumpuhkan sisa penyerang~w~ dan tangani situasi sesuai diskresi Anda!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Mendekat ke ~p~VIP~w~ untuk meminta mereka ~g~mengikuti Anda~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sebuah ~r~helikopter tak dikenal~w~ memasuki wilayah udara terdekat.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Tim pengawal VIP sedang ~r~diserang~w~. Bantu ~y~lumpuhkan ancaman~w~ dan tunggu instruksi selanjutnya!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Lindungi VIP!~w~ Dispatch akan memberikan instruksi lebih lanjut setelah lokasi kejadian terkendali.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Tim pengawal VIP telah ~r~dilumpuhkan~w~. Selamatkan VIP yang telah ~y~disandera~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Coba ~y~mendekati VIP~w~ tanpa ~o~terdeteksi oleh penyerang bersenjata~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Kehadiran Anda terdeteksi~w~. ~g~Lindungi VIP~w~ yang sekarang menjadi ~o~sasaran serangan para pelaku~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

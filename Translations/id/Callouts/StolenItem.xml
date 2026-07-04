@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Barang Curian]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~y~pencurian~w~ telah terjadi; bicara dengan ~y~korban~w~ dan lanjutkan penyelidikan.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tersangka diyakini melarikan diri ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[dengan berjalan kaki~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[menggunakan kendaraan~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Ponsel]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Dompet]]></OTHER>
+		<OTHER><![CDATA[Kunci Rumah]]></OTHER>
+		<OTHER><![CDATA[Kamera]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[syok dan gemetar]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Mau apa Anda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Kami menerima laporan pencurian, dan kami harus memeriksa badan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Enak saja! Anda sama sekali tidak punya bukti dan saya tidak akan menjawab pertanyaan apa pun!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya di sini untuk menegakkan hukum. Pelacak kami menunjukkan ada sebuah {0} di lokasi ini dan ada pada Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Bohong! Teknologi zaman sekarang sering salah kok!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Tersangka:~w~ Ada apa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Kami meyakini Anda membawa sebuah {0}, tolong kooperatif, saya perlu memeriksa Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="resignedly"><![CDATA[~r~Tersangka:~w~ Baiklah Anda menang, saya menyerahkan diri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Oke, angkat tangan Anda ke atas, saya akan mengamankan Anda.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Temukan ~r~tersangka~w~. Area ~y~pencarian akan diperbarui ~w~secara berkala.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Pak Polisi, tolong, saya baru saja dirampok!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Bisa beri tahu saya ciri-ciri pelakunya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~Korban:~w~ Saya tidak terlalu memperhatikan, tapi {0} saya ada pelacak GPS-nya, semoga itu bisa membantu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Bagus sekali, biar saya sampaikan ini ke pihak dispatch agar terhubung ke sistem lacak kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Korban: ~w~Baik, saya harap Anda bisa menemukannya kembali, barang itu sangat penting.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tentu, kami akan mengabari Anda lagi. Saya akan coba melacaknya sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

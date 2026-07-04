@@ -1,0 +1,211 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Orang Hilang]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang ~p~penghuni rumah~w~ melaporkan seseorang ~r~hilang~w~. Bicaralah dengan mereka untuk mengetahui situasinya.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Anda sekarang memiliki ~y~3 area kemungkinan~w~ untuk dicari di peta Anda. ~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kembalikan ~y~korban~w~ ke rumah dengan selamat. Mereka akan otomatis mengikuti Anda.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Korban~w~ telah ~g~kembali dengan selamat~w~ ke rumah.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Orang hilang~w~ tersebut telah ~r~tewas~w~. Berikan bantuan medis!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Orang Hilang: ~y~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Mulai periksa ~y~area pencarian~w~ di peta Anda untuk menemukan orang hilang tersebut!]]></NOTIFICATION>
+		<OTHER><![CDATA[~b~biru~w~]]></OTHER>
+		<OTHER><![CDATA[~y~kuning~w~]]></OTHER>
+		<OTHER><![CDATA[~g~hijau~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang duduk di tanah~w~. Kerahkan unit darat untuk ~y~melakukan kontak~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda orang yang dilaporkan hilang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Ya... Maafkan saya, saya tidak bermaksud membuat orang lain khawatir. Saya hanya... butuh waktu untuk menyendiri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda sudah hilang selama lebih dari sehari. Mengapa Anda tidak memberi kabar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="distant"><![CDATA[~y~Korban:~w~ Saya tidak tahu. Saya hanya... tidak ingin berbicara dengan siapa pun. Saya memikirkan banyak hal... Saya ingin sendirian.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tapi Anda sudah pergi cukup lama. Orang-orang mengkhawatirkan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Korban:~w~ Saya tahu, dan saya minta maaf. Saya tidak ingin menimbulkan masalah. Saya hanya... perlu menenangkan pikiran.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Menenangkan pikiran? Apakah ada masalah?]]></DIALOGUE>
+			<DIALOGUE EMOTION="hesitant"><![CDATA[~y~Korban:~w~ Tidak ada apa-apa. Hanya... masalah pribadi. Jangan khawatir tentang hal itu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Masalah pribadi? Apakah Anda baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="avoiding"><![CDATA[~y~Korban:~w~ Ya, saya baik-baik saja. Saya hanya... saya perlu pulang. Bisakah Anda mengantar saya kembali?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kita tidak bisa membiarkannya begitu saja. Kami harus memastikan Anda baik-baik saja.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Korban:~w~ Maafkan saya. Saya tidak bermaksud mempersulit ini. Saya akan baik-baik saja. Tolong, saya hanya ingin pulang sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah. Yang terpenting adalah Anda aman dan baik-baik saja. Saya akan membawa Anda kembali.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang berjalan~w~ tanpa arah.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo! Apakah Anda baik-baik saja?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~y~Korban:~w~ Oh—uh, ya. Kurasa begitu. Tunggu, apakah Anda tim pencarian dan penyelamatan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya dari kepolisian. Kami mendapat laporan bahwa ada seseorang yang tersesat di sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Ya ampun... ya, itu saya. Saya sedang mendaki, lalu saya—uh—saya tidak tahu bagaimana bisa sampai di sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sudah berapa lama Anda berkeliaran?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sheepish"><![CDATA[~y~Korban:~w~ Sepertinya... beberapa jam? Mungkin lebih? Saya sampai lupa waktu. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Seharusnya Anda tetap diam di tempat. Berpindah-pindah tempat hanya membuat kami lebih sulit menemukan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Korban:~w~ Saya tahu, saya tahu. Tapi saya tidak mau hanya duduk diam tanpa melakukan apa-apa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Setidaknya Anda baik-baik saja. Ada luka? Merasa pusing atau dehidrasi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Korban:~w~ Tidak, sepertinya saya tidak apa-apa. Hanya lelah... dan benar-benar ingin segera pulang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya bisa memahaminya. Mari kita keluar dari sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Korban:~w~ Terima kasih, Pak Petugas. Sungguh. Saya berhutang budi pada Anda.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang berjalan~w~ yang terlihat panik dan tertekan.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hei, apakah Anda baik-baik saja? Anda terlihat ketakutan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~y~Korban:~w~ Oh, syukurlah! Saya pikir saya tidak akan pernah bisa keluar dari sini. Saya—saya tidak tahu saya ada di mana!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak apa-apa, saya di sini untuk membantu. Sudah berapa lama Anda berada di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frantic"><![CDATA[~y~Korban:~w~ Saya... saya sudah berkeliaran berjam-jam! Ponsel saya mati, dan saya—saya pikir saya tahu jalannya, tapi sekarang... sekarang semuanya terlihat sama.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tarik napas dalam-dalam. Anda aman sekarang. Fokuslah untuk tetap tenang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Korban:~w~ Saya—saya sedang mencoba. Tapi saya terus mendengar suara-suara aneh, dan saya tidak tahu harus berbuat apa. Saya... saya benar-benar takut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak apa-apa. Anda tidak sendirian lagi sekarang. Kami akan membawa Anda keluar dari sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Korban:~w~ Saya tahu, tapi saya—saya tidak ingin terjebak di sini lebih lama lagi. Bisakah... bisakah Anda membantu saya kembali?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tentu saja, saya akan membawa Anda kembali. Anda sudah tidak jauh lagi dari tempat aman sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Terima kasih banyak. Saya sempat mulai kehilangan harapan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak perlu berterima kasih. Tetaplah bersama saya, dan kita akan membawa Anda pulang dengan selamat.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang berjalan~w~ yang terlihat terluka atau mabuk. Kerahkan unit darat untuk ~y~memeriksa mereka~w~ dengan cepat!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hei, apakah Anda baik-baik saja? Sepertinya berjalan Anda pincang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Korban:~w~ Oh, ini tidak terlalu serius. Hanya sedikit kram di kaki saya. Saya sudah berjalan berputar-putar cukup lama... sepertinya saya tersesat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tersesat? Sudah berapa lama Anda berada di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Korban:~w~ Beberapa jam, kurasa. Saya mengikuti jalur lintasan, tapi kemudian saya kehilangan arah. Semuanya terlihat sama. Saya pikir saya berjalan ke arah yang benar, tapi...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Itu pasti membuat stres. Apakah Anda terluka, atau hanya kram?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Korban:~w~ Cuma kram. Kaki saya sedikit kaku, tapi saya akan baik-baik saja. Saya hanya perlu keluar dari sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya bisa membantu Anda. Menurut Anda, seberapa jauh Anda dari jalur lintasan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Korban:~w~ Sejujurnya? Saya tidak tahu sama sekali. Rasanya setiap jalur yang saya lalui selalu berujung buntu. Saya hanya ingin pulang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jangan khawatir, Anda tidak terlalu jauh. Mari kita bawa Anda kembali ke tempat aman. Bisakah Anda tetap berjalan, atau perlu saya bantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Korban:~w~ Saya bisa jalan sendiri, tapi pelan-pelan. Saya hanya ingin pulang... saya sudah terlalu lama berada di sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, santai saja. Kita akan segera sampai.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Terima kasih banyak. Saya tidak tahu apa yang akan terjadi pada saya tanpa bantuan Anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama-sama. Ikuti saya dan kita akan kembali ke rumah.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang berjalan~w~ yang terlihat terluka atau mabuk. Kerahkan unit darat untuk ~y~memeriksa mereka~w~ dengan cepat!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, apakah Anda baik-baik saja? Sepertinya Anda sudah lama berada di sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="slurred"><![CDATA[~y~Korban:~w~ H-Hei... ya, saya baik-baik saja. Cuma... jalan-jalan, tahu kan? Berpikir...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya bisa melihatnya. Tapi Anda tidak terlihat terlalu baik. Apakah Anda terluka?]]></DIALOGUE>
+			<DIALOGUE EMOTION="tipsy"><![CDATA[~y~Korban:~w~ Hahaha... tidak, tidak. Tidak luka. Cuma sedikit... uh, sedikit mabuk. Jalan yang panjang, tahu kan? Butuh... butuh menenangkan pikiran.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jalan yang panjang? Apa yang terjadi? Mengapa Anda minum-minum di tempat seperti ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Korban:~w~ Saya... saya tidak tahu... Saya... pasangan saya dan saya, kami... kami berpisah. Dan... dan saya pikir mencari udara segar, sedikit ruang, bisa membantu... tapi saya malah terus... minum. Semua jadi berantakan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Turut prihatin mendengarnya. Tapi Anda tidak seharusnya berada di sini dalam kondisi seperti ini, apalagi sendirian. Apakah Anda butuh bantuan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="regretful"><![CDATA[~y~Korban:~w~ Saya tahu... saya hanya... saya tidak ingin berada di sekitar siapa pun, tahu kan? Tidak ingin... menghadapinya. Jadi saya terus berjalan. Saya pikir itu akan membuat saya merasa lebih baik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda tidak perlu sendirian saat ini. Mari kita bawa Anda kembali ke tempat aman. Bisakah Anda berjalan, atau perlu saya bantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reluctant"><![CDATA[~y~Korban:~w~ Saya... saya akan baik-baik saja. Cuma perlu pulang... tolong, saya cuma ingin pulang...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, kita akan menuju ke sana. Tetaplah bersama saya, dan pelan-pelan saja. Anda tidak sendirian lagi sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Korban:~w~ Terima kasih... saya tidak tahu apa yang akan saya lakukan tanpa Anda...]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang berjalan~w~ tanpa arah. Mereka juga mengidentifikasi potensi ancaman: ~y~singa gunung~w~ di dekat lokasi.]]></NOTIFICATION>
+    <DIALOGUES>
+        <DIALOGUE><![CDATA[~b~Anda:~w~ Hei, apakah Anda baik-baik saja? Sepertinya Anda telah mengalami banyak hal.]]></DIALOGUE>
+        <DIALOGUE EMOTION="panicked"><![CDATA[~y~Korban:~w~ Oh, syukurlah! Saya pikir saya akan mati di sini! Saya sudah berlari... dikejar singa gunung!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Anda:~w~ Singa gunung? Anda serius? Sudah berapa lama mereka mengikuti Anda?]]></DIALOGUE>
+        <DIALOGUE EMOTION="terrified"><![CDATA[~y~Korban:~w~ Saya bahkan tidak tahu... Saya mendengar sesuatu di belakang saya, lalu saya menoleh, dan mereka ada di sana! Saya—saya mulai berlari, dan mereka terus mendekat. Saya yakin mereka akan menerkam saya!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Anda:~w~ Anda aman sekarang. Jangan khawatir, saya melindungi Anda. Sudah berapa lama Anda berada di sini?]]></DIALOGUE>
+        <DIALOGUE EMOTION="shaky"><![CDATA[~y~Korban:~w~ Saya sudah... di sini berjam-jam. Saya sedang mendaki, mencoba menenangkan pikiran, lalu saya tersesat. Saya tidak sadar sudah sejauh ini... Lalu singa gunung itu muncul, dan saya langsung berlari. Saya bahkan tidak tahu saya ada di mana sekarang.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Anda:~w~ Tidak apa-apa. Anda tidak sendirian lagi sekarang, dan kita akan membawa Anda keluar dari sini. Tetaplah dekat dengan saya.]]></DIALOGUE>
+        <DIALOGUE EMOTION="relieved"><![CDATA[~y~Korban:~w~ Terima kasih... saya benar-benar takut tidak bisa keluar hidup-hidup dari sini.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Anda:~w~ Anda sudah aman sekarang. Pelan-pelan saja. Kita akan kembali ke tempat yang aman.]]></DIALOGUE>
+        <DIALOGUE EMOTION="grateful"><![CDATA[~y~Korban:~w~ Terima kasih banyak, Pak Petugas. Saya tidak tahu apa jadinya saya tanpa Anda.]]></DIALOGUE>
+    </DIALOGUES>
+</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Dukungan udara melaporkan ~o~satu orang tidak sadarkan diri~w~. Lukanya terlihat parah, unit darat dibutuhkan segera.]]></NOTIFICATION>
+</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda yang menelpon tentang orang hilang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Teman Sekamar:~w~ Ya, teman sekamar saya. Saya tidak tahu dia pergi ke mana.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Teman Sekamar:~w~ Kemarin- dan dia belum kembali! Dia biasanya selalu pulang pada hari yang sama.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Pulang dari mana?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Teman Sekamar:~w~ Dia menyebutnya mendaki... Saya menyebutnya jalan jauh. Saya khawatir dia melakukan sesuatu yang bodoh.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jangan khawatir, kami akan menemukannya. Apakah Anda tahu ke mana dia mungkin pergi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Teman Sekamar:~w~ Saya tidak tahu sama sekali. Dia sering menyendiri hampir sepanjang waktu, dia tidak memberitahu saya ke mana dia pergi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda sudah mencoba meneleponnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Teman Sekamar:~w~ Ya, saya sudah mencoba beberapa kali! Selalu langsung masuk ke kotak suara.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, kami akan melakukan pencarian. Jika Anda mendapat kabar darinya, beritahu kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~b~Teman Sekamar:~w~ Terima kasih. Saya hanya berharap dia baik-baik saja.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda yang menelpon tentang orang hilang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Teman Sekamar:~w~ Ya, teman sekamar saya. Dia hilang sejak pagi ini, dan saya tidak tahu ke mana dia pergi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Teman Sekamar:~w~ Dia pergi pagi-pagi sekali. Dia sedang berlatih untuk pendakian amal besar ini, dan hari ini seharusnya menjadi jalur yang panjang, tapi saya tidak menyangka dia pergi selama ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia mengatakan ke mana dia akan pergi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Teman Sekamar:~w~ Dia bilang dia berencana mendaki beberapa jalur di dekat tebing. Itu bagian dari latihannya. Dia semakin menyukainya sejak ketakutan medis di rumah sakit tahun lalu. Dia bilang udara segar sangat membantu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia pernah melakukan pendakian seperti ini sebelumnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Teman Sekamar:~w~ Ya, tapi tidak selama ini. Biasanya, dia sudah kembali tengah hari. Saya berusaha untuk tidak khawatir, tapi kali ini terasa berbeda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda sudah mencoba meneleponnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Teman Sekamar:~w~ Ya, tapi selalu masuk ke kotak suara. Dia biasanya selalu mengangkat atau membalas pesan saya. Saya mulai benar-benar khawatir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, kami akan memulai pencarian. Tolong beritahu kami jika Anda mendengar sesuatu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Teman Sekamar:~w~ Tolong temukan dia. Saya hanya ingin tahu dia aman.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda melaporkan orang hilang? Bisa ceritakan lebih banyak tentang mereka?]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Pemilik Kontrakan:~w~ Ya, dia penyewa saya. Dia sudah menyewa selama beberapa bulan. Dia agak penyendiri, tapi dia terlihat baik-baik saja. Dia hanya belum kembali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Pemilik Kontrakan:~w~ Beberapa hari yang lalu. Dia sempat menyebutkan akan pergi mendaki perbukitan dekat sini. Tapi dia belum kembali sejak saat itu, dan tidak biasanya dia pergi begitu lama.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda tahu jika dia punya tempat pendakian favorit atau tujuan tertentu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Pemilik Kontrakan:~w~ Dia tidak banyak bicara tentang itu, tapi saya tahu dia sering pergi ke punggung bukit di belakang peternakan lama. Tidak banyak orang yang pergi ke sana, tempatnya sedikit terpencil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia membawa perlengkapan yang tidak biasa bersamanya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Pemilik Kontrakan:~w~ Setahu saya tidak ada. Saya rasa dia hanya membawa ransel biasa dan air minum. Tidak ada perlengkapan khusus atau semacamnya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia pernah menghilang seperti ini sebelumnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worry"><![CDATA[~y~Pemilik Kontrakan:~w~ Tidak sama sekali. Dia selalu dapat diandalkan, membayar sewaan tepat waktu. Ini sangat tidak sesuai dengan karakternya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami akan memulai pencarian sekarang. Jika Anda mendengar sesuatu, jangan ragu untuk menghubungi kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Pemilik Kontrakan:~w~ Tolong temukan dia. Saya sangat berharap dia baik-baik saja.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda melaporkan orang hilang? Bisa ceritakan lebih banyak tentang mereka?]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Pemilik Kontrakan:~w~ Ya, ini penyewa saya. Dia sudah menyewa di sini selama dua bulan. Dia orangnya agak pendiam, tapi akhir-akhir ini dia mulai bicara tentang menghabiskan lebih banyak waktu di alam terbuka. Dia mengalami masalah kesehatan bulan lalu, dan dia mulai mendaki untuk menenangkan pikirannya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Pemilik Kontrakan:~w~ Beberapa hari yang lalu. Dia bilang ingin liburan akhir pekan dan mendaki gunung di dekat sini untuk menyegarkan pikiran. Saya tidak berpikir macam-macam. Seharusnya dia kembali hari ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda tahu secara spesifik ke mana tujuannya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Pemilik Kontrakan:~w~ Tidak tepatnya. Dia suka menyusuri jalur di dekat hutan lama. Jalur yang sama yang dia ceritakan kepada saya saat dia menyebutkan tentang pendakian itu. Dia bilang ingin mencoba perjalanan yang lebih panjang, tapi itu sebelum dia berangkat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia membawa perlengkapan khusus bersamanya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Pemilik Kontrakan:~w~ Hanya barang biasa. Ranselnya, kotak P3K, dan air minum. Dia sempat menyebutkan berencana pergi agak lama, tapi tidak memberitahu kapan akan kembali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia pernah menghilang dalam waktu lama seperti ini sebelumnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worry"><![CDATA[~y~Pemilik Kontrakan:~w~ Tidak, tidak seperti ini. Dia selalu dapat diandalkan dan sopan. Ini waktu terlama dia pergi tanpa memberi tahu saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami akan memulai pencarian sekarang. Jika Anda mendengar sesuatu, jangan ragu untuk menghubungi kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Pemilik Kontrakan:~w~ Tolong temukan dia. Saya khawatir dia tidak baik-baik saja.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda yang menelpon tentang orang hilang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Teman Serumah:~w~ Ya, ini teman serumah saya. Dia hilang sejak kemarin, dan saya tidak tahu dia ada di mana.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Teman Serumah:~w~ Dia pergi kemarin pagi untuk mendaki. Itu adalah sesuatu yang sering dia lakukan, tapi dia biasanya pulang saat malam tiba... kali ini, dia tidak kembali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia sering pergi mendaki?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Teman Serumah:~w~ Ya, dia seorang pendaki yang aktif. Dia sangat suka menghabiskan waktu di alam terbuka. Dia pernah melakukan pendakian yang lebih panjang sebelumnya, tapi dia selalu memastikan untuk memberi kabar atau pulang sebelum penghujung hari.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia mengatakan ke mana tujuannya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Teman Serumah:~w~ Tidak tepatnya. Dia cuma bilang mau pergi mendaki, tapi dia tidak pernah beritahu saya ke mana tepatnya. Dia biasanya pergi ke perbukitan atau jalur di dekat waduk lama, tapi dia tidak menyebutkan apa-apa secara spesifik kali ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia pernah menghilang sebelumnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Teman Serumah:~w~ Tidak, tidak seperti ini. Dia selalu cukup mudah ditebak dengan pendakiannya. Jika dia akan terlambat, dia biasanya mengirim SMS atau menelepon. Kali ini, tidak ada kabar sama sekali. Ini benar-benar tidak seperti dia.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda sudah mencoba meneleponnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Teman Serumah:~w~ Ya, saya sudah menelepon dan mengirimnya pesan beberapa kali. Selalu langsung masuk ke kotak suara setiap kali saya hubungi. Saya mulai benar-benar khawatir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, kami akan memulai pencarian. Tolong beritahu kami jika Anda mendapat kabar darinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Teman Serumah:~w~ Terima kasih. Saya hanya ingin tahu dia aman. Tolong temukan dia.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda yang menelpon tentang orang hilang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Teman Serumah:~w~ Ya, ini teman serumah saya. Dia hilang sejak kemarin, dan saya tidak mendapat kabar darinya. Saya sangat khawatir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kapan terakhir kali Anda melihatnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Teman Serumah:~w~ Kemarin pagi. Dia pergi untuk mendaki. Dia belakangan ini sering melakukannya—setelah masalah kesehatan di rumah sakit, dia benar-benar ingin menyatu dengan alam. Dia bilang itu membantunya pulih.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia sering pergi mendaki?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Teman Serumah:~w~ Ya, sering. Tapi dia sekarang melakukan pendakian yang lebih panjang dan menantang. Dia menyebutkan ingin menghabiskan lebih banyak waktu sendirian di pegunungan, menjauh dari segalanya. Saya pikir itu ide yang bagus, tapi sekarang... saya tidak tahu lagi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia mengatakan ke mana dia akan pergi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Teman Serumah:~w~ Tidak tepatnya. Dia cuma bilang akan pergi ke awal jalur pendakian di dekat danau. Dia sempat bilang sudah lama ingin mendaki jalur panjang di sana.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah dia pernah menghilang seperti ini sebelumnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Teman Serumah:~w~ Tidak, dia tidak pernah pergi selama ini. Jika dia terlambat pulang atau ada masalah, dia selalu menelepon atau mengirim SMS kepada saya. Kali ini, tidak ada kabar sama sekali. Ini sudah lebih dari 24 jam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Apakah Anda sudah mencoba meneleponnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Teman Serumah:~w~ Ya, saya sudah menelepon dan mengirim SMS. Dia tidak mengangkat. Saya mulai panik. Saya sangat takut terjadi sesuatu padanya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, kami akan memulai pencarian. Jika Anda mendengar informasi apa pun, tolong beritahu kami.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Teman Serumah:~w~ Tolong temukan dia. Saya hanya ingin tahu dia baik-baik saja.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

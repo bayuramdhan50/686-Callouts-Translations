@@ -1,0 +1,60 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Kendaraan Terbakar]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk menerima panggilan tugas ini.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Pelapor mengakhiri panggilan~w~. Kami telah mengarahkan rute ~g~GPS~w~ Anda ke lokasi kejadian. Segera menuju ke sana.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Sebuah ~r~kendaraan curian~w~ terlihat ~o~terbakar~w~. Segera datangi lokasi kejadian.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[Setelah lokasi kejadian aman, tekan ~y~{0}~w~ untuk mengatur GPS ke rumah pemilik kendaraan.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Beri tahu ~p~pemilik~w~ dari ~y~{0}~w~ yang tinggal di dekat lokasi.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Kebakaran kendaraan berhasil dipadamkan. Menuju ke alamat pemilik terdaftar.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Maaf sebelumnya, ada kabar buruk yang harus saya sampaikan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Korban:~w~ Oh tidak! Ada apa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sayang sekali, hari ini saya menangani insiden kebakaran kendaraan. Dari pelacakan nomor polisi, Anda terdaftar sebagai pemilik kendaraan tersebut, yang sepertinya baru saja Anda laporkan hilang dicuri?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Korban:~w~ Ya... saya tidak percaya ini. Saya sangat syok. Jadi mobil saya dicuri, lalu dibakar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tepat sekali. Saya membawa beberapa dokumen berisi petunjuk apa yang harus Anda lakukan sekarang. Semoga informasi ini bisa membantu memperjelas situasinya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~Korban:~w~ Terima kasih banyak. Kalau mau diambil hikmahnya, setidaknya asuransi saya seharusnya menanggung kerugian ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Syukurlah kalau begitu. Selamat melanjutkan hari Anda, kami akan menghubungi Anda lagi dengan perkembangan lebih lanjut.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Saya datang untuk menyampaikan sebuah kabar kepada Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Korban:~w~ Ini pasti kabar soal mobil saya kan? Dan melihat mobilnya tidak ada di belakang Anda, saya bisa menebak hasilnya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Maaf, tebakan Anda tepat. Hari ini sebuah kendaraan ditemukan terbakar, dengan sangat berat hati saya sampaikan bahwa itu adalah kendaraan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Korban:~w~ Mengejutkan sekali. Bagaimana kejadiannya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saat ini kami belum mengetahui penyebab pastinya, namun ada dugaan kuat tindakan tindak pidana sengaja. Ini adalah beberapa dokumen dan langkah yang harus Anda ambil sekarang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Korban:~w~ Baiklah terima kasih. Premi asuransi saya pasti akan melambung tinggi setelah ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Semoga pihak asuransi bisa memahaminya, dan sekali lagi kami turut prihatin. Kami akan segera mengabari Anda lagi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Permisi? Halo, saya perlu berbicara sebentar dengan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~y~Korban:~w~ Oh, ada masalah apa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini mengenai kendaraan Anda. Hari ini, kami menanggapi laporan mengenai sebuah kendaraan yang terbakar. Dari pelacakan, Anda adalah pemilik terdaftarnya, dan kami ingin memberitahukan hal ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="disbelief"><![CDATA[~y~Korban:~w~ Benarkah? Apakah Anda yakin itu mobil saya? Saya sungguh tidak percaya! Saya kira mobil itu cuma dicuri, bukan dibakar sampai hangus begitu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami belum mengetahui penyebabnya saat ini, namun kami sedang menyelidikinya. Sementara itu, ini adalah berkas yang harus Anda baca mengenai langkah selanjutnya. Ini dokumennya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Korban:~w~ Terima kasih. Semua ini terjadi begitu cepat. Saya harap tidak ada korban luka, terutama jika ini memang kesengajaan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Betul sekali, semoga sisa hari Anda menyenangkan. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Pelapor:~w~ Dengar, waktu saya tidak banyak, tapi ada hal penting yang harus saya sampaikan kepada Anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Maaf, Anda ini siapa?]]></DIALOGUE>
+			<DIALOGUE EMOTION="fearful"><![CDATA[~y~Pelapor:~w~ Jangan banyak tanya. Sebuah kendaraan akan dibakar, sekarang juga. Anda harus pergi ke sana sekarang!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Di mana? Dan kenapa Anda memberi tahu saya soal ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Pelapor:~w~ Saya sudah mengirimkan lokasinya ke ponsel Anda. Seseorang yang saya kenal telah membuat kesalahan... mereka berusaha membalas dendam pada orang yang salah.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Siapa "mereka" yang terus Anda sebutkan itu? Dan kenapa mereka membakar mobil seseorang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="mysterious"><![CDATA[~y~Pelapor:~w~ Sebuah kesalahan... mereka salah sasaran.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tenang dulu. Saya butuh penjelasan lebih lengkap.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Pelapor:~w~ Saya sudah terlalu banyak bicara... sial...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

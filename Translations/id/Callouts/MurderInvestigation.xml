@@ -1,0 +1,107 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Penyelidikan Kasus Pembunuhan]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seseorang telah ~r~dibunuh~w~. Menuju ke lokasi kejadian untuk ~b~mengumpulkan barang bukti~w~ bersama tim Anda.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~b~Cari~w~ di sekitar area dan tekan ~y~{0}~w~ untuk mengumpulkan barang bukti.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mengumpulkan barang bukti: ~n~~r~{0}~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Tidak ditemukan barang bukti~w~ di lokasi ini.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Selesai mencari?~w~ ~n~~y~Tahan {0}~w~ untuk melanjutkannya berbicara dengan ~b~Petugas Forensik~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ini adalah ~r~tersangka~w~ yang teridentifikasi.~n~Tekan ~y~Y~w~ untuk melihat pemberitahuan ini lagi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mengumpulkan ~y~{0}~w~/~g~{1}~w~ item barang bukti.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Anda mengumpulkan ~g~{0}~w~/~g~{1}~w~ item barang bukti.]]></NOTIFICATION>
+		<!-- // If all evidence was collected, we'll make the number green! :) -->
+		
+		<OTHER><![CDATA[PISTOL]]></OTHER>
+		<OTHER><![CDATA[KARTU IDENTITAS]]></OTHER>
+		<OTHER><![CDATA[BOTOL AIR MINUM]]></OTHER>
+		<OTHER><![CDATA[BALACLAVA]]></OTHER>
+		<OTHER><![CDATA[PISAU]]></OTHER>
+		<OTHER><![CDATA[JAM TANGAN]]></OTHER>
+		<OTHER><![CDATA[PONSEL]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Kunjungi ~o~alamat tersangka~w~ dan cobalah untuk menangkap ~r~tersangka~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Temukan ~r~tersangka~w~ yang sedang melarikan diri ~y~dengan berjalan kaki~w~ di dekat lokasi.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Menuju ke lokasi ~r~panggilan darurat~w~ dan periksa apakah pelakunya adalah ~y~tersangka yang sama~w~ dengan kasus pembunuhan Anda.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Kejar ~r~kendaraan tersangka~w~ yang tertangkap kamera ~b~ALPR~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Menuju ke ~b~stasiun kereta bawah tanah (subway)~w~ dan temukan ~r~tersangka~w~ sebelum mereka berhasil kabur.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Bicara dengan ~b~Petugas Forensik~w~ untuk memulai ~y~penyelidikan~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Petugas Forensik:~w~ Pak Polisi. Kami sudah mengamankan area sekitar. Satu korban dipastikan meninggal dunia. Tidak ada tanda-tanda intervensi medis.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Bagaimana penilaian awalnya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Petugas Forensik:~w~ Trauma fisik yang terlihat menunjukkan ini adalah serangan yang disengaja. Kami tidak akan berspekulasi lebih jauh sampai ada bukti yang mendukung.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Apakah ada kontaminasi TKP?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Petugas Forensik:~w~ Sangat minim sejauh ini. Teknisi kamera sedang mendokumentasikan jenazah. Saya ingin area yang lebih luas diperiksa sebelum ada barang bukti yang bergeser.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Anda ingin penyisiran menyeluruh metode grid?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~Petugas Forensik:~w~ Benar. Mulailah dari dekat jenazah lalu perluas ke arah luar. Apa pun yang tampak mencurigakan — senjata, potongan kain, barang pribadi — masukkan ke kantong bukti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Apakah saya bawa langsung setiap barang yang ditemukan ke mari?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Petugas Forensik:~w~ Jangan. Selesaikan penyisiran dulu. Setelah Anda mengumpulkan semua bukti yang bisa ditemukan, bawa semuanya sekaligus ke saya. Saya akan memproses semuanya dalam satu waktu dari mobil van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Ada hal lain lagi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Belum ada konfirmasi bahwa tersangka sudah meninggalkan area ini. Tetap waspada saat Anda melakukan pencarian. Biarkan bukti yang menceritakan apa yang terjadi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Baiklah. Saya akan lakukan penyisiran menyeluruh dan melapor kembali.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Syukurlah Anda di sini. Kasus ini sangat tragis. Satu jenazah, banyak luka parah. Seseorang sengaja melakukan ini dengan keji.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Ada perkiraan sudah berapa lama korban tewas?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~Petugas Forensik:~w~ Masih terlalu dini untuk memastikannya. Yang terpenting sekarang adalah senjata yang digunakan kemungkinan besar masih ada di luar sana — atau di dekat sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Anda berpikir senjatanya dibuang di dekat TKP?]]></DIALOGUE>
+			<DIALOGUE EMOTION="determined"><![CDATA[~y~Petugas Forensik:~w~ Sebagian besar pelaku kejahatan tidak membawa pulang barang bukti kecuali mereka panik. Mulai pencarian dari dekat jenazah ke arah luar. Lakukan dengan perlahan dan teliti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Apa spesifiknya yang harus saya cari?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Apa saja yang tidak seharusnya ada di sini. Pisau, benda tumpul, pakaian yang dibuang, barang yang terjatuh. Jika dirasa mencurigakan, masukkan ke kantong bukti — tapi selesaikan pencarian dulu baru kembali ke sini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Jadi selesaikan penyisiran area, lalu serahkan semua buktinya sekaligus?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Petugas Forensik:~w~ Tepat sekali. Setelah Anda mengumpulkan semua potensi barang bukti, bawa ke saya sekaligus. Saya akan jalankan analisis lapangan lengkap dari mobil van. Jika ada DNA atau jejak yang bisa digunakan, kita harus bergerak cepat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Dimengerti. Saya akan mengamankan seluruh area TKP terlebih dahulu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~y~Petugas Forensik:~w~ Bagus. Ketelitian lebih penting daripada kecepatan. Mari kita berikan keadilan bagi korban ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda: ~w~Memulai penyisiran penuh sekarang juga.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Melakukan ~b~Analisis Forensik~w~: ~g~{0}%~w~~n~~r~{1}~w~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Petugas Forensik:~w~ Anda tidak memberikan barang bukti apa pun kepada saya, jadi penyelidikan pembunuhan ini tidak bisa dilanjutkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Petugas Forensik:~w~ Untuk apa repot-repot datang ke TKP kalau Anda tidak niat bekerja dengan becus?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="excited"><![CDATA[~y~Petugas Forensik:~w~ Ini sangat menarik. Biarkan saya memeriksa barang bukti ini dan melihat apa yang bisa saya temukan.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Saya berhasil melacak nomor seri dari pistol ini. Saya bisa memeriksa atas nama siapa senjata api ini terdaftar di dalam sistem.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Kartu identitas ini sangat membantu. Temuan yang bagus. Saya bisa langsung tahu siapa pemiliknya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Anda membuat ini sedikit rumit, tapi saya sudah mengambil sampel dari botol air minum ini. Anda pasti tidak percaya - saya menemukan kecocokan DNA.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Melihat serat kain pada topeng balaclava ini, saya berhasil mencocokkan sampel rambut yang tersangkut. Mari kita cari tahu siapa orang ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Jangan pernah menggunakan pisau dalam kejahatan, permukaannya penuh dengan sidik jari. Saya bisa tahu siapa yang memegang pisau ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Ini baru pertama kali! Jam tangan yang tertinggal di TKP ini memiliki ukiran nama di bagian belakangnya. Saya bisa mengeja namanya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Petugas Forensik:~w~ Tidak ada ponsel yang tidak bisa dibobol. Ada banyak data yang harus diperiksa tapi saya berhasil menemukan atas nama siapa ponsel ini terdaftar.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true" AI="true"> <!-- For Charlie: use radio as a toggle, not a set. -->
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Halo Dispatch, ini Timothy Ifield memanggil melalui ponsel dinas. ]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Halo Dispatch, ini Roz Huntley memanggil melalui ponsel dinas. ]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Petugas Forensik:~w~ Saya telah membagikan data hasil forensik kepada kalian. Tolong kirimkan detail informasi tersebut kepada petugas penyidik di lokasi bersama saya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Dispatch:~w~ Seluruh data diterima di laboratorium. Kami kirimkan detailnya sekarang.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ Kami mendapatkan alamat yang terkait dengan individu ini. Anda harus segera memeriksanya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ Kami berhasil melacak posisi saat ini dari individu tersebut. Segera menuju ke sana sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ Kami menerima panggilan darurat baru, seseorang dilaporkan ditodong senjata api di dekat lokasi Anda. Sial, ini bisa jadi pelaku yang sama - segera ke sana sekarang!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ Kamera ALPR menangkap pelat nomor kendaraan pelaku sekitar 30 detik yang lalu. Anda harus segera mengejar dan menangkap mereka.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ Sepertinya individu ini baru saja menggunakan tiket kereta bawah tanah (subway), mereka sedang bergerak kabur.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Petugas Forensik:~w~ Maafkan saya Pak Polisi, saya tidak berhasil menghubungkan bukti-bukti ini dengan individu mana pun.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Petugas Forensik:~w~ Terkadang kita bisa menemukan bukti namun para pelaku sangat pintar: mulai dari memakai sarung tangan hingga menggunakan senjata api yang tidak terdaftar.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Petugas Forensik:~w~ Sepertinya kita harus membersihkan TKP ini dan sampai jumpa lagi di penyelidikan kasus pembunuhan berikutnya.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+
+</CALLOUT>

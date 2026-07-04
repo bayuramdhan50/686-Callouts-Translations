@@ -1,0 +1,59 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pemotretan Kantor Polisi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seseorang sedang ~y~memotret kantor polisi~w~, bicara dengan mereka untuk mengetahui alasannya.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Sedang apa Anda di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="mysterious"><![CDATA[~r~Tersangka:~w~ Tidak ada. Tidak ada apa-apa kok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Turunkan kamera Anda, saya perlu bicara dengan-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ada apa ini? Ada kepentingan apa Anda datang ke sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka:~w~ Saya tidak melakukan pelanggaran hukum apa pun, tolong jangan ganggu saya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya hanya mengajak Anda berbicara baik-baik untuk memahami apa yang sedang terjadi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka:~w~ Dan saya cuma melakukan aktivitas yang sepenuhnya sah menurut hukum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya hanya ingin berbicara sebentar dengan Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Tersangka:~w~ Jangan coba-coba melanggar hak saya untuk memotret di area publik.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, boleh tahu kenapa Anda mengambil foto-foto kantor polisi ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Ini untuk konten saluran media sosial saya, tidak apa-apa kan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Hal itu legal kok, hanya saja sedikit aneh karena Anda melakukannya dalam waktu yang cukup lama.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Tersangka:~w~ Saya mengerti, saya juga sudah selesai kok, jadi saya akan pergi dari sini sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Baiklah, terima kasih banyak.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Nomor telepon telah diterima, dan penyelidikan awal telah dimulai. Terima kasih.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, sedang apa Anda memotret kantor polisi ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Tersangka:~w~ Apakah Anda benar-benar ingin tahu alasannya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ya, silakan jelaskan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Tersangka:~w~ Saya tahu ini terdengar konyol, tapi seseorang bernama Jeff mengirim pesan dan menyuruh saya melakukannya.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Tersangka:~w~ Iya, kalau dipikir-pikir lagi sekarang, itu memang tindakan yang sangat mencurigakan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya rasa kita sepakat mengenai hal itu. Bisa berikan nomor telepon orang tersebut kepada saya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya sarankan Anda pulang sekarang, dan pertimbangkan baik-baik dengan siapa Anda berkomunikasi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Baik, saya mengerti. Maaf sudah merepotkan Anda.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo, kenapa Anda memotret kantor polisi ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="excited"><![CDATA[~r~Tersangka:~w~ Halo Pak Polisi! Saya sangat mengagumi layanan darurat, dan pekerjaan yang kalian lakukan. Saya hanya mengambil beberapa foto kantor kalian, tidak masalah kan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Begitu rupanya, jadi ini semacam hobi ya?]]></DIALOGUE>
+			<DIALOGUE EMOTION="excited"><![CDATA[~r~Tersangka:~w~ Tepat sekali! Dulu saya bercita-cita menjadi polisi, tapi karena sekarang saya berada di luar kantor, Anda bisa lihat cita-cita itu tidak berjalan sesuai rencana.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Menarik sekali, saya tadi hanya ingin memeriksa Anda untuk mengetahui apa yang sedang terjadi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Saya meminta maaf jika menyita waktu Anda, tapi saya juga sudah selesai memotret kok, hasilnya bagus-bagus.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Sama sekali tidak masalah, semoga sisa hari Anda menyenangkan.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~Tersangka:~w~ Kalau begitu saya pamit dulu. Semoga kita bisa bertemu lagi di lain waktu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

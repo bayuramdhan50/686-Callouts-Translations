@@ -1,0 +1,56 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Dugaan Penguntitan (Stalker)]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Seorang ~p~warga~w~ merasa dirinya sedang dibuntuti, ~y~pastikan keselamatan mereka~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Ya saya memang penguntit, tapi penjara bukan tempat saya dan saya tidak mau kembali ke sana!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Foto-foto korban~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Pergi dari hadapan saya!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tenang dulu, kami menerima laporan bahwa Anda menguntit seseorang baru saja.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Persetan, saya tidak melakukan apa-apa, ini cuma tuduhan tanpa bukti!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda menolak untuk berbicara baik-baik dengan kami?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Ya, IYA! Saya tidak mau bicara dengan polisi bajingan.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Mereka kemungkinan besar bukan penguntitnya; catatan kriminal mereka bersih. Selesaikan percakapan lalu ~y~kembali menemui korban~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Halo Pak Polisi, ada yang bisa saya bantu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami menerima laporan dari seseorang bahwa Anda sedang menguntit mereka, apakah itu benar?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Tersangka:~w~ Astaga, tidak! Sama sekali tidak. Pasti ada salah paham atau salah orang. Saya hanya sedang berbelanja, mungkin arah jalan kami kebetulan sama? Saya pasti tidak cocok dengan ciri-ciri pelakunya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami memang belum menerima ciri-ciri detailnya, biar saya hubungi dispatch untuk memperjelas situasi ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Tersangka:~w~ Tentu silakan, belanjaan saya bisa menunggu kok, jangan khawatir.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Anda boleh melanjutkan aktivitas, sepertinya ini memang salah paham. Selamat menikmati sisa hari Anda.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="confused"><![CDATA[~y~Korban:~w~ Senang melihat Anda lagi, bagaimana hasilnya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami sudah memeriksa mereka, namun kecil kemungkinan bahwa mereka yang menguntit Anda.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Korban:~w~ Maafkan saya sebesar-besarnya, masuk akal juga. Saya baru terpikir mungkin saya terlalu panik saat memanggil Anda tadi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak apa-apa, lebih baik waspada demi keselamatan. Lain kali, beri tahu kami saja jika Anda merasa ragu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Korban:~w~ Baik, maaf sudah merepotkan tanpa alasan yang jelas.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Kami telah menemukan lokasi tersangka. ~y~Selesaikan pembicaraan~w~ lalu segera menuju ke lokasi mereka.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Pak Polisi, syukurlah Anda datang! Saya sedang dibuntuti!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami sudah di sini sekarang. Bisa ceritakan apa yang sebenarnya terjadi?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Saya dibuntuti... tapi mendadak pikiran saya kosong dan lupa ciri-ciri wajah mereka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tidak masalah, wajar jika Anda melupakan sesuatu saat sedang panik. Saya akan meminta petugas pemantau kamera untuk memeriksa rekaman CCTV di area ini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Tadi kami berada di sini, di ~y~{0}~w~ beberapa waktu lalu, mungkin sekitar 15 menit yang lalu. Tolong sampaikan informasi itu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Terima kasih, akan saya teruskan informasi tersebut sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Mereka sedang memeriksa rekamannya sekarang, apakah ada detail tambahan lagi? Semakin banyak informasinya semakin baik.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Korban:~w~ Tidak ada, saya sama sekali tidak mengerti kenapa mereka membuntuti saya selama 2 jam terakhir ini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jangan khawatir, kita akan tuntaskan masalah ini.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Kami sudah berhasil melacak lokasi mereka, jadi saya akan pergi ke sana sekarang. Anda silakan melanjutkan aktivitas atau pulang ke rumah, kami akan segera mengabari Anda lagi.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

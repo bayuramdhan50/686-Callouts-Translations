@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Perampokan di Gang]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Dugaan ~y~perampokan~w~ sedang terjadi di sekitar {0}. Periksa tempat kejadian.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Dugaan ~y~perampokan~w~ sedang terjadi di sekitar {0}. Periksa tempat kejadian.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Barang Curian]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Dugaan ~y~perampokan~w~ sedang terjadi di sekitar {0} dan korban ~r~dilaporkan ditodong senjata~w~. Periksa tempat kejadian.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Dugaan ~y~perampokan~w~ sedang terjadi di sekitar {0} dengan laporan dua pelaku perampokan. Periksa tempat kejadian.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tekan ~y~{0}~w~ untuk ~g~mengamankan~w~ barang curian.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Mengamankan ~y~{0}~w~ curian sebagai ~g~barang bukti~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Tas]]></OTHER>
+		<OTHER><![CDATA[Tas Belanja]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Paket]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

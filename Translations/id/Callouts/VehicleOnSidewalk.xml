@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Kendaraan di Atas Trotoar]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Sebuah kendaraan dilaporkan berada di atas trotoar dan ~y~menghalangi jalan~w~. Coba bicara dengan pengemudi tersebut.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Maaf, Anda tidak boleh berhenti dan diam di sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Tersangka:~w~ Saya tidak mau pindah.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya minta Anda untuk-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Tetap di situ. Ada apa ini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Oh, tidak ada apa-apa. Ada masalah apa ya?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini trotoar jalan. Anda harus segera pindah.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Saya sedang menjemput orang, mereka akan tiba sebentar lagi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Ini bukan permintaan. Ini trotoar, tempat bagi para pejalan kaki.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Tersangka:~w~ Baiklah saya akan parkir di tempat lain.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Anda parkir di atas trotoar, apakah Anda tahu itu dilarang?]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~r~Tersangka:~w~ Ya, tapi saya cuma nunggu teman. Boleh ya sebentar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Maaf, tidak boleh.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Tersangka:~w~ Terus saya harus tunggu di mana?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Di tempat parkir resmi atau sejenisnya, ada banyak di sekitar sini.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Tersangka:~w~ Mengerti Pak. Maaf, tidak akan saya ulangi lagi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Bungkusan paket ganja]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Halo. Kenapa Anda parkir di sini?]]></DIALOGUE>
+			<DIALOGUE EMOTION="mysterious"><![CDATA[~r~Tersangka:~w~ Saya sedang mengantar barang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Mengantar apa? Kalau boleh jujur, Anda sama sekali tidak terlihat seperti kurir pengantar barang.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~r~Tersangka:~w~ Uh, ada urusan yang harus saya kerjakan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Jadi, Anda parkir di sini, menunggu untuk mengantar sesuatu?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleading"><![CDATA[~r~Tersangka:~w~ Dengar Pak, saya harus mengantar ini, demi keluarga saya. Tolonglah.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>
