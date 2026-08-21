@@ -12,7 +12,7 @@
 			<DIALOGUE EMOTION="scared"><![CDATA[~r~Tersangka:~w~ Ada apa? Saya tidak melakukan kesalahan apa pun. Sungguh!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Anda:~w~ Saya minta Anda kooperatif, paham?]]></DIALOGUE>
 			<DIALOGUE EMOTION="scared"><![CDATA[~r~Tersangka:~w~ Apa yang terjadi? Apa yang mau Anda lakukan?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Angkat kedua tangan Anda ke udara sekarang.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Anda:~w~ Angkat kedua tangan Anda ke udara sekarang.]]></DIALOGUE>
 			<DIALOGUE EMOTION="fearful"><![CDATA[~r~Tersangka:~w~ TIDAK! MUNDUR! SEKARANG JUGA!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
